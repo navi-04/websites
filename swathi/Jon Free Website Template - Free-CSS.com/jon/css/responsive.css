@@ -1,0 +1,307 @@
+/*--------------------------------------------------------------------- File Name: responsive.css ---------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------- 991px x 768px ---------------------------------------------------------------------*/
+
+@media (min-width: 1200px) and (max-width: 1342px) {
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 0 19px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 0px 8px;
+    }
+    .text-bg h1 {
+        font-size: 86px;
+        line-height: 100px;
+        padding-bottom: 11px;
+    }
+    .choose_text h3 {
+        font-size: 18px;
+    }
+    .choose .titlepage {
+        padding-bottom: 40px;
+    }
+    .choose .read_more {
+        margin-top: 30px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 0px 12px;
+    }
+    .banner_main {
+        min-height: 605px;
+    }
+    .three_box {
+        margin-top: -102px;
+    }
+    .padding_with {
+        max-width: inherit;
+    }
+    .choose .titlepage {
+        padding-bottom: 40px;
+    }
+    .choose_img {
+        margin-right: 0;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .logo::after {
+        height: 96px;
+        left: -77px;
+    }
+    .text-bg h1 {
+        font-size: 49px;
+        line-height: 65px;
+        padding-bottom: 10px;
+    }
+    .product_box figure img {
+        height: 200px;
+    }
+    .navigation.navbar {
+        padding-top: 12px !important;
+    }
+    ul.social_icon li a {
+        width: 33px;
+        margin: 0 1px;
+        height: 33px;
+    }
+    ul.location_icon li {
+        font-size: 13px;
+    }
+    .titlepage h2 {
+        font-size: 33px;
+    }
+    .d_none {
+        display: none;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .logo::after {
+        width: 78px;
+        height: 115px;
+    }
+    .logo {
+        padding-top: 15px;
+    }
+    .d_none {
+        display: none;
+    }
+    .text-bg h1 {
+        font-size: 50px;
+        line-height: 40px;
+        padding-bottom: 25px;
+        margin-top: 50px;
+    }
+    .text-bg {
+        padding-left: 0px;
+        padding-bottom: 30px;
+    }
+    .border_right {
+        border-right: inherit;
+    }
+    .padding_with {
+        max-width: inherit;
+    }
+    .choose .titlepage {
+        padding-bottom: 40px;
+    }
+    .choose_img {
+        margin-right: 0;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .padding_left0 {
+        padding-left: 15px;
+    }
+    .padding_right0 {
+        padding-right: 15px;
+    }
+    .box_text {
+        margin-top: 30px;
+        box-shadow: #ddd 0px 0px 7px 0px;
+    }
+    .padding_bottom2 {
+        padding-bottom: 30px;
+    }
+    .titlepage h2 {
+        font-size: 34px;
+    }
+    .about_img {
+        margin-bottom: 20px;
+    }
+    ul.social_icon {
+        margin-bottom: 25px;
+    }
+    .about_Carousel .test_box p {
+        padding-left: 47px;
+    }
+    ul.location_icon li {
+        font-size: 17px;
+        padding-left: 13px;
+    }
+    .margin_boot {
+        margin-bottom: 20px;
+    }
+    .navigation.navbar {
+        float: right;
+        display: inherit !important;
+        padding: 0;
+        width: 100%;
+        padding-top: 12px;
+    }
+    .navigation .navbar-collapse {
+        background: #000;
+        padding: 20px;
+        margin-top: 70px;
+        position: absolute;
+        width: 100%;
+        margin-right: 20px;
+        z-index: 999;
+    }
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 10px 0;
+        color: #fff;
+    }
+    .navigation.navbar-dark .navbar-toggler {
+        border: inherit;
+        float: right;
+        padding-top: 6px;
+    }
+    .navigation.navbar-dark .navbar-toggler-icon {
+        background: url(../images/menu_icon.png);
+        background-repeat: no-repeat;
+    }
+    .hottest .hottest_box {
+        margin-top: 30px
+    }
+}
+
+@media (max-width: 575px) {
+    .header {
+        padding: 30px 0px 30px 0px;
+    }
+    .logo {
+        text-align: center !important;
+        padding-bottom: 6px;
+        float: left;
+        padding-left: 37%;
+    }
+    .d_none {
+        display: none;
+    }
+    .text-bg h1 {
+        font-size: 50px;
+        line-height: 68px;
+        padding-bottom: 10px;
+    }
+    .three_box {
+        padding: 0 0px;
+    }
+    .hottest .hottest_box {
+        margin-top: 30px
+    }
+    .border_right {
+        border-right: inherit;
+    }
+    .padding_bottom2 {
+        padding-bottom: 30px;
+    }
+    .padding_with {
+        max-width: inherit;
+    }
+    .choose .titlepage {
+        padding-bottom: 40px;
+    }
+    .choose_img {
+        margin-right: 0;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .padding_left0 {
+        padding-left: 15px;
+    }
+    .padding_right0 {
+        padding-right: 15px;
+    }
+    .box_text {
+        margin-top: 30px;
+        box-shadow: #ddd 0px 0px 7px 0px;
+    }
+    .about_Carousel .test_box i {
+        margin-top: inherit;
+        z-index: inherit;
+        margin-bottom: 18px;
+    }
+    .test_box {
+        padding: 64px 18px 40px 36px;
+    }
+    .about_Carousel .test_box p {
+        padding-left: 3px;
+        margin-top: 20px;
+    }
+    ul.social_icon {
+        margin-bottom: 25px;
+    }
+    .margin_boot {
+        margin-bottom: 20px;
+    }
+    .text-bg a {
+        max-width: 132px;
+        padding: 10px 0px;
+    }
+    .titlepage h2 {
+        font-size: 27px;
+        line-height: 44px;
+    }
+    ul.location_icon li {
+        padding-left: 0px;
+        display: block;
+        text-align: left;
+        margin-top: 20px;
+    }
+    .about .about_box {
+        padding: 0px 0px 30px 0px;
+    }
+    .about_box {
+        padding-top: 0;
+    }
+    .about .about_box h3 {
+        font-size: 21px;
+    }
+    .navigation.navbar {
+        float: right;
+        display: inherit !important;
+        padding: 0 !important;
+        width: 100%;
+        margin-top: -38px;
+    }
+    .navigation .navbar-collapse {
+        background: #000;
+        padding: 20px;
+        margin-top: 69px;
+        position: absolute;
+        width: 100%;
+        margin-right: 20px;
+        z-index: 999;
+    }
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 10px 0;
+        color: #fff;
+    }
+    .navigation.navbar-dark .navbar-toggler {
+        float: right;
+        margin-right: 2px;
+        border: inherit;
+    }
+    .navigation.navbar-dark .navbar-toggler-icon {
+        background: url(../images/menu_icon.png);
+        background-repeat: no-repeat;
+    }
+}
+
