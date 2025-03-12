@@ -1,0 +1,68 @@
+/*------------------------------------------------------------------
+    File Name: colors.css
+-------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------
+    Default color
+-------------------------------------------------------------------*/
+
+@media (min-width: 992px) {
+    .white_header_font .menu>ul>li>a {
+        color: #fff;
+    }
+}
+
+.theme_color_bg {
+    background-color: #4ca8b3;
+}
+
+.bt_main {
+    background: #f6f7a9;
+}
+
+.bt_main:hover,
+.bt_main:focus {
+    background: #1b1b1b;
+    color: #fff;
+}
+
+.reverse_bt.bt_main {
+    background: #f7b516;
+}
+
+.reverse_bt.bt_main:hover,
+.reverse_bt.bt_main:focus {
+    background: #4ca8b3;
+    color: #252525;
+}
+
+.reverse_bt.bt_main:hover,
+.reverse_bt.bt_main:focus {
+    background: #4ca8b3;
+    color: #fff;
+}
+
+.white_bt.bt_main {
+    color: #4b31aa;
+}
+
+.white_bt.bt_main:hover,
+.white_bt.bt_main:focus {
+    background: #f7b516;
+    color: #fff;
+}
+
+footer ul.social_icons li a:hover {
+    color: #4b31aa;
+}
+
+.theme_bg_color {
+    background: #2b5877;
+}
+
+.product_detail_page .tab_bar_section ul.nav.nav-tabs li a.active {
+    background: #4ca8b3;
+    color: #fff;
+}
+
