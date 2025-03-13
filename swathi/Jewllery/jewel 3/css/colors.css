@@ -1,0 +1,89 @@
+/**************************************
+    File Name: colors.css
+**************************************/
+
+
+/* colors 
+**************************************/
+
+.new-price,
+.closed,
+.shop-table .table th,
+.check li:before,
+h3 span,
+.text-primary,
+.pricing-box-03-head h4,
+.cat-title,
+.box:hover .readmore,
+.with-desc small,
+.blog-box:hover .readmore,
+.contact-box i,
+.navbar-nav .nav-link:hover,
+.shop-desc small,
+.notfound h2,
+.navbar-nav .nav-link:focus,
+.team-item .desc small,
+.navbar-inverse .navbar-nav .active>.nav-link,
+.navbar-inverse .navbar-nav .nav-link.active,
+.navbar-inverse .navbar-nav .nav-link.open,
+.navbar-inverse .navbar-nav .open>.nav-link {
+    color: #111428 !important;
+}
+
+.theme_color {
+    color: #72dd78;
+}
+
+.magnifier {
+    background-color: rgba(107, 158, 16, 0.8);
+}
+
+.absolute-widget,
+.onsale,
+.section.db,
+.tag-widget a:hover,
+.pricing-box-03 .btn,
+.testimonials blockquote:hover,
+div.tab button:hover,
+div.tab button.active,
+.page-link:hover,
+.page-link:focus,
+.contact-details h1,
+.header .dropdown-item:hover,
+.header .dropdown-item:focus,
+.topbar-section,
+.navbar-inverse .navbar-toggler {
+    color: #ffffff !important;
+    border-color: #72dd78;
+    background-color: #72dd78;
+}
+
+.testimonials blockquote:hover:after {
+    border-top-color: #6b9e10;
+}
+
+.form-control:focus,
+.absolute-widget {
+    border-color: #6b9e10;
+}
+
+.button--isi::before {
+    background: #6b9e10;
+}
+
+.pricing-box-03 .button--isi::before,
+.absolute-widget .button--isi::before {
+    background: #529100;
+}
+
+.contact-details h1,
+.absolute-widget {
+    -webkit-box-shadow: inset 0px 0px 0px 2px #529100;
+    -moz-box-shadow: inset 0px 0px 0px 2px #529100;
+    box-shadow: inset 0px 0px 0px 2px #529100;
+}
+
+.absolute-widget::before {
+    border-right-color: #468500;
+}
+
