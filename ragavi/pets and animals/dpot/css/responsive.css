@@ -1,0 +1,439 @@
+/*--------------------------------------------------------------------- File Name: responsive.css ---------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------- 991px x 768px ---------------------------------------------------------------------*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    
+    .header-search {
+        padding: 15px 0px;
+    }
+}
+
+
+/*------------------------------------------------------------------- 767px x 599px ---------------------------------------------------------------------*/
+
+@media only screen and (min-width: 599px) and (max-width: 767px) {
+    .logo {
+        text-align: center;
+    }
+    .cart-content-right {
+        padding-bottom: 5px;
+    }
+    .mg {
+        margin: 0px 0px;
+    }
+    .menu-area-main {
+        height: 256px;
+        overflow-y: auto;
+    }
+    .megamenu>.row [class*="col-"] {
+        padding: 0px;
+    }
+    .menu-area-main .megamenu .men-cat {
+        padding: 0px 15px;
+    }
+    .menu-area-main .megamenu .women-cat {
+        padding: 0px 15px;
+    }
+    .menu-area-main .megamenu .el-cat {
+        padding: 0px 15px;
+    }
+    .mean-container .mean-nav ul li a.mean-expand {
+        height: 19px;
+    }
+    .category-box.women-box {
+        display: none;
+    }
+    .cart-box {
+        display: inline-block;
+        margin: 0px 30px;
+    }
+    .wish-box {
+        float: none;
+        margin: 0px 30px;
+        display: inline-block;
+    }
+    .menu-add {
+        display: none;
+    }
+    .category-box {
+        display: none;
+    }
+    .mean-container .mean-nav ul li ol {
+        padding: 0px;
+    }
+    .mean-container .mean-nav ul li a {
+        padding: 10px 20px;
+        width: 94.8%;
+    }
+    .mean-container .mean-nav ul li li a {
+        width: 92%;
+        padding: 1em 4%;
+    }
+    .mean-container .mean-nav ul li li li a {
+        width: 100%;
+    }
+    .header-search {
+        padding: 15px 0px;
+    }
+    #collapseFilter.d-md-block {
+        padding: 30px 0px;
+    }
+}
+
+
+/*------------------------------------------------------------------- 599px x 280px ---------------------------------------------------------------------*/
+
+@media only screen and (min-width: 280px) and (max-width: 599px) {
+    .cart-content-right {
+        padding-bottom: 5px;
+    }
+    .megamenu>.row [class*="col-"] {
+        padding: 0px;
+    }
+    .menu-area-main .megamenu .men-cat {
+        padding: 0px 15px;
+    }
+    .menu-area-main .megamenu .women-cat {
+        padding: 0px 15px;
+    }
+    .menu-area-main .megamenu .el-cat {
+        padding: 0px 15px;
+    }
+    .mean-container .mean-nav ul li a {
+        padding: 1em 4%;
+        width: 92%;
+    }
+    .mean-container .mean-nav ul li li a {
+        width: 90%;
+        padding: 1em 5%;
+    }
+    .mean-container .sub-full.megamenu-categories ol li a {
+        padding: 5px 0px;
+        text-transform: capitalize;
+        width: 100%;
+    }
+    .megamenu .sub-full.megamenu-categories .women-box .banner-up-text a {
+        width: auto;
+        border: none;
+        float: none;
+    }
+    .menu-area-main {
+        height: 290px;
+        overflow-y: auto;
+    }
+    .mean-container .mean-nav ul li a.mean-expand {
+        top: 0;
+    }
+
+.consectetur_text { margin-left: 0px;}
+.read_bt { height: 60px; font-size: 24pt;}
+.banner_bt { width: 100%;}
+.numbar_text { width: 20%; margin-top: 0px; display: none;}
+.about_taital { font-size: 28px; text-align: right;}
+.magna_text { font-size: 13pt; line-height: 20px; width: 100%; color: #fff; }
+.sed_text { font-size: 20pt; line-height: 30px; width: 100%;}
+.pet_taital { font-size: 20pt;}
+.box_3 { display: none;}
+.dog_img { padding-top: 40px;}
+.get_taital { font-size: 32pt;}
+.our_texts {font-size: 27pt;}
+.email_bt { font-size: 13pt; height: 53px; padding-left: 10px;}
+.subscribe_bt { font-size: 13pt; padding-right: 10px; padding-left: 10px; }
+.massage-bt { height: 130px; padding: 20px 20px 10px 20px;}
+.send_btn { padding-left: 0px;}
+.header_section { padding-bottom: 20px;}
+
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    
+    .titlepage h2::after {width: 58%;}
+    .about-box .titlepage h2::after {
+        width: 52%;
+right: -221px;
+    }
+    .Nursery-img .text-box h3 {padding: 111px 50px;}
+    .contact .titlepage h2::after {
+    left: -650px;
+width: 30%;
+   }
+   .sporrt_text { margin-top: 0px;}
+   #main_slider a.carousel-control-prev {
+    display: none;
+   }
+   #main_slider a.carousel-control-next {
+    display: none;
+    }
+.menu_text { width: 75%;}
+.consectetur_text { font-size: 18pt;}
+.read_bt { height: 60px; font-size: 23pt;}
+.magna_text { font-size: 20pt; line-height: 28px;}
+.more_bt { width: 24%; height: 60px;}
+.about { width: 100%; float: left; padding-top: 40px; }
+.pet_taital { font-size: 42pt;}
+.lorem_text { font-size: 18pt; padding: 0px;}
+.dog_bt { height: 60px; font-size: 20pt;}
+.email_bt { width: 82%; }
+.shop_text { font-size: 21pt;}
+.adderess_text { font-size: 21pt;}
+.icons { width: 35%;}
+.mail_section li { padding-right: 12px;}
+.map_text { padding-left: 8px;} 
+
+
+
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .main-menu ul > li a {padding: 7px 6px ; }
+    .main-menu ul>li a { font-size: 14px;}
+
+    .banner-main .carousel-caption h1 {
+
+        font-size: 36px;
+        padding-top: 0px;
+    }
+    .banner-main .carousel-caption p {
+
+        margin-bottom: 7px;
+        display: none;
+    }
+    .main { width: 15%;}
+    .info_icon { min-width: 10%;}
+    #main_slider a.carousel-control-prev {
+    display: none;
+}
+.btn_main { margin-top: 58px; width: 65%;}
+#main_slider a.carousel-control-next {
+    display: none;
+}
+.sporrt_text { margin-top: 0px; font-size: 24px;}
+.email_btn { padding: 41px;}
+    .btn-primary {max-width: 144px;}
+    .titlepage h2::after {width: 79%;}
+    .about-box .titlepage h2::after {width: 73%;
+right: -88px;}
+   .contact .titlepage h2::after {
+left: -403px;
+width: 41%;
+   }
+.paddimg-right {
+    padding-right: 15px;
+}
+.paddimg-left {
+    padding-left: 15px;
+}
+.menu_main {
+    width: 75%;}
+
+.menu_text { width: 95%;}
+.ram { width: 100%;}
+.taital { width: 30%; font-size: 40pt; }
+.consectetur_text { width: 76%; font-size: 21pt; line-height: 30px; }
+.read_bt { font-size: 20pt; height: 60px; }
+.banner_bt { width: 43%;}
+.numbar_text { width: 15%;}
+.about_taital { font-size: 60px; }
+.magna_text { font-size: 16pt; line-height: 30px; }
+.more_bt { width: 30%; height: 60px;}
+.about { padding-top: 55px; width: 100%; float: left;}
+.pet_taital { font-size: 31pt; }
+.lorem_text { font-size: 17pt; padding-top: 0px;}
+.dog_bt { width: 100%; font-size: 20pt; height: 60px;}
+.numbar { width: 20%;}
+.box_3 { margin-top: 30px; }
+.email_bt { width: 77%; }
+.footer-logo{ min-height: 108px; }
+.icons { width: 50%; }
+.shop_text { font-size: 24pt;}
+.mail_section li { padding-right: 12px;}
+.about_taital_1 { margin-top: 55px;}
+
+
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .last {display: none;}
+    .banner-main .carousel-caption {top: 0%;}
+.titlepage h2 {
+font-size: 42px;
+display: block; 
+}
+#main_slider a.carousel-control-prev {
+    position: absolute;
+    left: 25%;
+    top: 64%;
+    display: none;
+}
+.btn_main { margin-top: 58px; width: 80%;}
+#main_slider a.carousel-control-next {
+    position: absolute;
+    left: 50px;
+    top: 64%;
+    display: none;
+}
+.btn-primary {
+    margin-top: 0px;
+    margin-left: -7px;
+}
+.menu_main {
+    width: 95%;}
+
+.banner-main .carousel-caption h1 {
+    font-size: 50px;
+}
+.titlepage h2::after {
+width: 88%;
+}
+
+.about-box .titlepage h2::after {width: 45%;
+right: -281px;}
+.sporrt_text { margin-top: 0px;}
+.Nursery-img .text-box h3 {
+font-size: 36px;
+padding: 126px 40px;
+}
+.main {
+    width: 20%;}
+
+.contact .titlepage h2::after {
+    left: -234px;
+width: 55%;
+}
+
+.menu_text { width: 100%; float: left; margin-top: 30px; } 
+.taital {
+    width: 100%;
+    font-size: 46pt;
+    text-align: left;
+}
+.ram { width: 100%; }
+.consectetur_text { font-size: 18pt; line-height: 30px; margin-left: 0px;} 
+.numbar_text { width: 20%;}
+.read_bt { width: 80%; height: 70px; font-size: 20pt; }
+.about_taital { font-size: 46px;}
+.magna_text { font-size: 14pt; line-height: 21px;}
+.more_bt { width: 35%; font-size: 17pt; height: 55px;}
+.about { width: 100%; float: left; padding-top: 22px; }
+.pet_taital { font-size: 23pt;}
+.lorem_text { font-size: 15pt; line-height: 25px; padding-top: 0px; }
+.dog_bt { width: 100%; height: 60px; font-size: 18pt; margin-top: 0px; }
+.numbar { width: 30%; }
+.box_3 { margin-top: 30px; }
+.email_bt { width: 69%; }
+.icons { width: 70%; }
+.gallery_section_2 { padding-bottom: 30px; padding-top: 50px;}
+
+}
+
+
+@media (max-width: 575px) {
+    .last { display: none; }
+    .carousel-caption {display: none;} 
+.header { padding-top: 0px; }
+.logo { float: inherit; padding-bottom: 15px; text-align: center;}
+.btn-primary {max-width: 126px;
+margin-right: 2px;
+font-size: 14px;}
+.banner-main .carousel-caption h1 {font-size: 30px; line-height: 38px;}
+.titlepage h2 {
+    font-size: 27px;
+}
+.sporrt_text{ 
+     font-size: 23px; 
+     margin-top: 0px;
+}
+.main {
+    width: 30%;
+}
+.btn_main {
+    margin-top: 30px;
+    padding-bottom: 30px;
+    width: 55%;}
+
+#main_slider a.carousel-control-prev {
+    position: absolute;
+    left: 175px;
+    top: 90%;
+}
+
+#main_slider a.carousel-control-next {
+    position: absolute;
+    left: 236px;
+    top: 90%;
+}
+
+.titlepage h2::after {
+    width: 93%;
+}
+    .about-box .titlepage h2::after {
+        width: 238px;
+        right: -50px;
+    }
+ .Gallery .titlepage h2 {
+    font-size: 47px;
+ }
+    .Gallery .titlepage h2::after {
+        width: 89%;
+    }
+
+    .paddimg-right {
+    padding-right: 15px;
+}
+.paddimg-left {
+    padding-left: 15px;
+}
+.Nursery-img .text-box h3 {
+font-size: 23px;
+padding: 30px 14px;
+
+}
+
+.contact .titlepage h2::after {
+
+    left: -8px;
+    width: 281px;
+}
+.footer .headinga span {
+font-size: 16px;
+
+}
+.menu-bottom {
+    margin-bottom: 45px;
+}
+ul.link li {
+
+    padding: 8px 12px;
+    padding-bottom: 0px; 
+}
+
+
+.about_section { background-size: cover; padding-bottom: 30px;}
+.menu_text { width: 100%; float: left; margin-top: 30px; }
+.taital { width: 100%; font-size: 40pt; text-align: left;}
+.ram { width: 100%;}
+.consectetur_text { font-size: 16pt; line-height: 30px;}
+.numbar_text { width: 20%;}
+.about_taital { font-size: 46px;}
+.about_taital_1 { font-size: 46px;}
+.magna_text { font-size: 13pt; line-height: 20px;}
+.more_bt { width: 40%; height: 55px; font-size: 14pt;}
+.about { width: 100%; float: left; padding-top: 0px; }
+.pet_taital { font-size: 30pt; font-size: 26pt; text-align: center;}
+.gallery_section_2 { padding-top: 40px;}
+.lorem_text { font-size: 17pt; padding-top: 0px;}
+.dog_bt { width: 55%; height: 55px; font-size: 14pt;}
+.box_3 { margin-top: 40px;}
+.email_bt { width: 62%; }
+.icons { width: 100%; }
+.mail_section li { font-size: 12pt; padding-right: 20px;}
+.map_text { padding-left: 20px; }
+.icons li { float: left; padding-left: 24px; display: contents;}
+
+
+
+}

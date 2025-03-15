@@ -1,0 +1,741 @@
+/*--------------------------------------------------------------------- File Name: style.css ---------------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------------- import Fonts ---------------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap&subset=latin-ext');
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+/*****---------------------------------------- 1) font-family: 'Rajdhani', sans-serif;
+ 2) font-family: 'Poppins', sans-serif;
+ ----------------------------------------*****/
+
+
+/*--------------------------------------------------------------------- import Files ---------------------------------------------------------------------*/
+
+@import url(animate.min.css);
+@import url(normalize.css);
+@import url(meanmenu.css);
+@import url(slick.css);
+@import url(jquery-ui.css);
+@import url(nice-select.css);
+
+/*--------------------------------------------------------------------- skeleton ---------------------------------------------------------------------*/
+
+* {
+     box-sizing: border-box !important;
+     transition: ease all 0.5s;
+}
+
+html {
+     scroll-behavior: smooth;
+}
+
+body {
+     color: #666666;
+     font-size: 14px;
+     font-family: 'Josefin Sans', sans-serif;;
+     line-height: 1.80857;
+     font-weight: normal;
+     overflow-x: hidden;
+}
+
+a {
+     color: #1f1f1f;
+     text-decoration: none !important;
+     outline: none !important;
+     -webkit-transition: all .3s ease-in-out;
+     -moz-transition: all .3s ease-in-out;
+     -ms-transition: all .3s ease-in-out;
+     -o-transition: all .3s ease-in-out;
+     transition: all .3s ease-in-out;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+     letter-spacing: 0;
+     font-weight: normal;
+     position: relative;
+     padding: 0 0 10px 0;
+     font-weight: normal;
+     line-height: normal;
+     color: #111111;
+     margin: 0
+}
+
+h1 {
+     font-size: 48px
+}
+
+h2 {
+     font-size: 22px
+}
+
+h3 {
+     font-size: 18px
+}
+
+h4 {
+     font-size: 16px
+}
+
+h5 {
+     font-size: 14px
+}
+
+h6 {
+     font-size: 13px
+}
+
+*,
+*::after,
+*::before {
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     box-sizing: border-box;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+     color: #212121;
+     text-decoration: none!important;
+     opacity: 1
+}
+
+button:focus {
+     outline: none;
+}
+
+ul,
+li,
+ol {
+     margin: 0px;
+     padding: 0px;
+     list-style: none;
+}
+
+p {
+     margin: 20px;
+     font-weight: 600;
+     font-size: 15px;
+     line-height: 24px;
+     color: #110f0a;
+}
+
+a {
+     color: #ffffff;
+     text-decoration: none;
+     outline: none !important;
+}
+
+
+.layout_padding {
+    padding-bottom: 70px;
+    padding-top: 70px;
+}
+
+.header_section{
+	width: 100%; 
+	float: left;
+	background-image: url(../images/banner.jpg);
+	height: auto;
+	padding-top: 20px;	
+	background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.active{ 
+	background-color: #ffffff;
+	padding-top: 5px; 
+	padding-bottom: 5px; 
+	color: #000;
+  margin-top: 10px;
+
+ }
+
+.menu_text{
+	width: 50%;
+	float: right;
+
+}
+.menu_text ul{ margin:0px; padding: 0px;}
+.menu_text li{ 
+	float: left; 
+	padding-right: 15px;
+  padding-left: 15px; 
+	font-size: 17pt;
+}
+.menu_text li a{
+	color: #ffffff;
+} 
+
+.last{
+	padding-top: 20px;
+	color: #ff9900;
+}
+
+.banner_main {
+    width: 100%;
+    float: left;
+    padding-top: 30px;
+}
+
+.taital{
+	width: 57%; 
+	float: left;
+	font-size: 60pt;
+	color: #ffffff;
+	text-align: right;
+}
+
+.ram{ width: 45%; float: left; }
+
+.consectetur_text{
+	width: 90%;
+	float: left;
+	font-size: 24px;
+	color: #fefcfc;
+	line-height: 50px;
+}
+
+.banner_bt{
+	width: 55%;
+	float: left;
+}
+
+.read_bt {
+    width: 100%;
+    float: left;
+    background-color: #ffffff;
+    border-radius: 60px;
+    height: 100px;
+    font-size: 25pt;
+    border:0px;
+}
+
+.box{
+	width: 100%;
+	float: left;
+	text-align: right;
+}
+
+.numbar_text {
+    background-color: #f7941d;
+    width: 10%;
+    text-align: center;
+    float: right;
+    padding-top: 20px;
+    color: #ffffff;
+}
+
+.about_section{
+	width: 100%;
+	float: left;
+	background-image: url(../images/about-img.jpg);
+	height: auto;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+.about_text{
+	width: 100%;
+	float: left;
+}
+
+.about_taital{
+	width: 100%;
+	float: left;
+	font-size: 50pt;
+	text-align: right;
+
+}
+.about_taital_1{
+  width: 100%;
+  float: left;
+  font-size: 50pt;
+  text-align: right;
+  margin-top: 70px;
+
+}
+
+
+.about{
+	padding-top: 715px;
+}
+
+.magna_text {
+    font-size: 20pt;
+    color: #060401;
+    text-align: right;
+    line-height: 40px;
+    width: 45%;
+    float: right;
+    margin-right: 0px;
+}
+
+.about_bt{
+	width: 100%;
+	float: left;
+}
+
+.more_bt {
+    width: 20%;
+    float: right;
+    background-color: #000;
+    border-radius: 60px;
+    height: 70px;
+    font-size: 20pt;
+    border: 0px;
+    color: #fff;
+}
+
+.gallery_main{
+	width: 100%;
+	float: left;
+	background-color:#f7941d;
+	height: auto;
+}
+
+.sed_text{
+	font-size: 19pt;
+    color: #060401;
+    text-align: right;
+    line-height: 40px;
+    width: 87%;
+    float: right;
+    margin-right: 0px;
+
+}
+
+.images{
+	margin-top: 20px;
+}
+
+.gallery_blog {
+  position: relative;
+  margin-top: 20px;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+
+.gallery_blog:hover .overlay {
+    bottom: 0;
+    height: 100%;
+    opacity: 0.80;
+}
+
+.text {
+  color: #353434;
+  font-size: 20pt;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.gallery_section_2{
+	width: 100%; 
+	float: left;
+	background-color: #ffffff;
+	height: auto;
+	padding-top: 100px;
+}
+
+.pet_taital{
+	width: 100%;
+	float: left;
+	font-size: 44pt;
+	color: #353434;
+}
+
+.lorem_text {
+    width: 100%;
+    float: left;
+    font-size: 19pt;
+    color: #353434;
+    line-height: 35px;
+    margin-left: 0px;
+    padding-top: 40px;
+}
+
+.dog_bt{
+    width: 70%;
+    float: left;
+    background-color: #221e1f;
+    border-radius: 60px;
+    height: 80px;
+    font-size: 25pt;
+    border:0px;
+    color: #ffffff;
+    margin-top: 40px;
+
+}
+
+.box_3{
+	width: 100%;
+	float: left;
+	margin-top: 102px;
+}
+
+.numbar{
+    background-color: #f7941d;
+    width: 15%;
+    text-align: center;
+    float: left;
+    padding-top: 20px;
+    color: #ffffff;
+    margin-top: 16px;
+
+}
+
+.dog_img{
+	width: 100%; 
+	float: left;
+}
+
+.touch_section{
+	width: 100%;
+	float: left;
+	background-image: url(../images/email-img.jpg);
+	height: auto;
+	padding-top: 55px;
+	background-size: 100%;
+    padding-bottom: 55px;
+
+}
+
+.get_taital{
+	width: 100%;
+	float: left;
+	text-align: center;
+	color: #f7941d;
+	font-size: 50pt;
+    padding-bottom: 40px;
+
+}
+
+.email_box{
+	width: 100%;
+	float: left;
+	background-color: #ffffff;
+	border-radius: 20px;
+	height: auto;
+    padding: 50px 20px;
+    opacity: 0.80;
+}
+
+.email-bt {
+    border: 1px solid #000;
+    color: #000000;
+    width: 100%;
+    height: 55px;
+    font-size: 22px;
+    padding: 20px;
+}
+
+.massage-bt {
+    border: 1px solid #000;
+    color: #000000;
+    width: 100%;
+    height: 200px;
+    font-size: 22px;
+    padding: 70px 20px 10px 20px;}
+
+.send_btn {
+    padding-left: 15px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+button.main_bt {
+    background: #f7941d;
+    border: none;
+    color: #fff;
+    width: 160px;
+    height: 58px;
+    border-radius: 25px;
+    font-size: 26px;
+}
+
+.form-group {
+    margin-bottom: 2rem;
+}
+
+.touch_section_2{
+	width: 100%; 
+	float: left;
+	background-color: #f7941d;
+	padding-top: 40px;	
+	padding-bottom: 40px;
+	height: auto;
+}
+
+.email_text {
+    width: 100%;
+    float: left;
+    margin-top: 30px;
+}
+
+.contact_us_3 {
+    margin-top: 90px;
+    margin-bottom: -105px;
+    box-shadow: 0px 0px 8px 0px;
+    color: #0a1422;
+}
+
+.btn-primary {
+    background: #000000;
+    border: indianred;
+    max-width: 170px;
+    width: 100%;
+    margin-right: 10px;
+    border-radius: 25px;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #000;
+}
+
+button.btn.btn-primary, button.btn.btn-primary:hover, button.btn.btn-primary:focus {
+    background: #000000;
+    padding: 10 40px;
+}
+
+.our_texts{
+	width: 100%;
+	float: left;
+	font-size: 40pt;
+	color: #ebebeb;
+}
+
+.subscribe_bt{
+	padding-right: 30px;
+	padding-left: 30px;
+	background-color: #000;
+	border-top-right-radius: 30px !important;
+	color: #fff;
+	padding-bottom: 10px; 
+	padding-top: 10px;
+	border-bottom-right-radius: 30px !important;
+	border: 0px; 
+	font-size: 17pt;
+}
+
+.email_bt {
+    width: 85%;
+    float: left;
+    border-bottom-left-radius: 30px !important;
+    border-top-left-radius: 30px !important;
+    padding-left: 30px;
+    height: 65px;
+    border: 0px;
+    font-size: 17pt;
+}
+
+.section_footer{
+	width: 100%;
+	float: left;
+	background-color: #272222;
+	height: auto;
+	padding-top: 30px;
+	padding-bottom: 30px; 
+
+}
+
+.mail_section{
+	width: 100%;
+	float: left;
+}
+
+.mail_section ul{
+	margin: 0px;
+	padding: 0px;
+}
+
+.mail_section li{
+	float: left;
+	font-size: 12pt;
+	color: #fdfefe;
+	padding-top: 10px;
+	padding-right: 35px;
+}
+.map_text{
+	padding-left: 30px;
+
+}
+
+.footer_section_2{
+	width: 100%;
+	float: left;
+	padding-top: 40px;
+}
+
+.shop_text {
+    width: 100%;
+    float: left;
+    font-size: 28px;
+    color: #ebebeb;
+    font-weight: bold;
+    padding: 25px 0px;
+}
+
+.dummy_text {
+    width: 100%;
+    float: left;
+    font-size: 12pt;
+    color: #ebebeb;
+    margin-left: 0px;
+    margin-top: 0px;
+    line-height: 30px;
+}
+
+.pet_text {
+    font-size: 12pt;
+    color: #ebebeb;
+    padding-left: 16px;
+}
+
+.image-icon {
+    width: 100%;
+    float: left;
+    padding-top: 6px;
+}
+
+.footer-img {
+    width: 100%;
+    float: left;
+    margin-top: 15px;
+}
+
+.adderess_text{
+    width: 100%;
+    float: left;
+    font-size: 28px;
+    color: #ebebeb;
+    font-weight: bold;
+    padding: 25px 0px;
+}
+.footer-img{
+	width: 100% !important;
+	float: left;
+	margin-top: 10px;
+	padding-bottom: 15px;
+}
+
+.social-icon{
+	width: 100%;
+	float: left;
+	border-bottom: 3px solid#fff;
+}
+
+.icons {
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 70px;
+}
+.icons li{ float: left; padding-left: 40px; }
+
+.copyright{ 
+	width: 100%;
+	float: left;
+	font-size: 12pt;
+	color: #b1b0b0;
+	text-align: center;
+	padding-top: 25px;
+	font-family: Poppins; 
+}
+
+.copyright a{
+	color: #b1b0b0;
+}
+
+.copyright a:hover{
+	color: #ffffff;
+}
+
+
+
+
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #f1f1f1;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #ff9900;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+
+
+.header-main{
+	width: 100%;
+	float: left;
+	background-color: #1d1b1c;
+	height: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.footer-logo{  }
