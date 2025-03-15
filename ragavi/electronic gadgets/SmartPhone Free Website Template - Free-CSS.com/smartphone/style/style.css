@@ -1,0 +1,427 @@
+/* CSS Document */
+*{margin:0; padding:0}
+body{background:#000000; margin:0px;
+	padding:0px;
+	font-size:11px;
+	color:#ABABAB;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+
+a {
+	color:#ffffff;
+	text-decoration:underline;
+}
+
+a:hover {
+	text-decoration:none;
+}
+
+#wrapper
+{
+	width:1002px;
+	margin:0 auto;
+}
+#header
+{
+	margin:0px;
+	padding:0px;
+}
+.logo
+{
+	width:300px;
+	height:95px;
+	background:url(../images/logo.jpg);
+	border-right:2px solid #C8C6AF;
+	float:left;
+}
+.topMenu
+{ width:495px;
+	background:url(../images/header.jpg);
+	padding:37px 0 43px 0;
+	float:left;
+}
+.topMenu ul
+{
+	margin:0px;
+	padding:0px; text-align:center;
+}
+.topMenu li
+{
+	display:inline;
+	margin:0px 0px 0px 0px;
+	padding:0px 4px 0px 10px; background:url(../images/menu_border.gif) no-repeat 0 1px;
+}
+.topMenu li.first{background:none}
+.topMenu li a
+{
+	text-decoration:none;
+	color:#CCCCCC;
+	font-weight:bold;
+} 
+.topMenu li a:hover{color:#c8c5a2}
+.topMenu li a.current{color:#c8c5a2}
+.devices
+{
+	width:204px;
+	height:95px;
+	background:url(../images/devices.jpg);
+	padding:0px 0px 0px 0px;
+	float:right;
+}
+.clear
+{
+	clear:both;
+	margin:0px;
+	padding:0px;
+}
+#workZone
+{
+	margin:0px;
+	padding:0px;
+}
+.leftCol
+{
+	width:300px;
+	border-right:2px solid #C8C6AF;
+	background:#0A0506;
+	float:left;
+	height: 100%;
+}
+.picPhone
+{
+	width:300px;
+	height:502px;
+	background:url(../images/phone-new.jpg);
+}
+.boldText
+{
+	color:#DAD8BF;
+	padding:205px 0px 0px 45px;
+	font:bold 18px Arial, Helvetica, sans-serif;
+}
+.boldTextwhite
+{
+	color:#fff;
+	padding:0px 0px 0px 8px;
+	margin:0px;
+	font-style:italic;
+	font:bold 12px Incised901 Nd BT, Arial, Helvetica, sans-serif;
+}
+.more
+{
+	text-align:right;
+	border-bottom:1px solid #3d3d3f;
+}
+.more a
+{
+	color:#fff;
+	font-weight:bold;
+	padding:0px 20px 0px 0px;
+	text-decoration:none;
+	margin:0px;
+}
+h2
+{
+	padding:0px 0px 0px 0px;
+	margin:0px 0px 0px 0px;
+	font-size:18px;
+	color:#FFFFFF;
+	font-weight:100;
+	font-family:Georgia, "Times New Roman", Times, serif;
+}
+h1
+{ 
+	padding:10px 0px 0px 0px;
+	margin:0px 0px 0px 0px;
+	font-size:24px;
+	color:#FFFFFF;
+	font-weight:100;
+	font-family:Georgia, "Times New Roman", Times, serif;
+}
+/*h3
+{
+	padding:25px 0px 0px 0px;
+	margin:0px 0px 0px 0px;
+	font-size:11px;
+	color:#C8C6AF;
+	font-weight:bold;
+}*/
+.brownText
+{	
+	color:#CCC9A2;
+}
+.featuresContainer
+{
+	margin:0px;
+	padding:0px 0px 0px 20px;
+	background:url(../images/leftcolbg.jpg) left top repeat-x;
+}
+.featueesText
+{
+	padding:15px 5px 30px 0px;
+}	
+.learn a
+{
+	color:#DAD8BF;
+	text-decoration:underline;
+	font-weight:bold;
+}
+.specification
+{
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 20px 0px;
+}
+.specification ul
+{
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+}
+.specification li
+{	
+	margin:10px 5px 0px 0px;
+	padding:0px 0px 0px 15px;
+	list-style:none;
+	background:url(../images/left-col-arrew.png) 0px 2px no-repeat;
+}
+.orderNow
+{
+	text-align:center;
+	padding:17px 0px 17px 0px;
+}
+.midCol
+{
+	width:40px;
+	float:left;
+	margin:0px 0px 0px 0px;
+	padding:40px 0px 70px 0px;
+	background:#0C0D0F url(../images/colmid-bg.jpg) left bottom repeat-x;
+	border-right:2px solid #C8C6AF;
+}
+
+.columnmiddle {
+	width:496px;
+	float:left;
+	padding:0px 0px 70px 0px;
+	background:#0C0D0F url(../images/colmid-bg.jpg) left bottom repeat-x;
+	border-right:2px solid #C8C6AF;
+}
+
+.rightCol
+{
+	width:202px;
+	float:left;
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 50px 0px;
+	background:#c8c6af;
+}
+.welCome
+{
+	padding:0px 0px 0px 20px;
+	margin:0px 0px 0px 0px;
+	border-top:1px solid #3D3D3F;
+}
+.welComesoft
+{
+	padding:0px 20px 0px 20px;
+	margin:0px 0px 0px 0px;
+}
+
+.welCometext
+{
+	padding:5px 20px 0px 0px;
+	text-align:justify;
+}
+
+.smartphonzone {
+	padding:0px 0px 0px 0px;
+	margin:0px 0px 0px 0px;
+	border-top:1px solid #3D3D3F;
+}
+
+.latestContainer
+{	
+	width:450px;
+	margin:20px 0px 0px 0px;
+}
+.pic1
+{
+	padding:0px 0px 0px 0px;
+	margin:0px 0px 0px 4px;
+	text-align:center;
+	float:left;
+}
+.pic2
+{
+	padding:0px 0px 20px 0px;
+	margin:10px 0px 0px 4px;
+	text-align:center;
+	float:left;
+}
+.piclinks {
+	margin:0px 0px 0px 0px;
+	padding:5px 0px 5px 0px;
+}
+.piclinks a
+{
+	color:#dad8bf;
+	text-align:center;
+}
+
+.piclinks a:hover {
+	color:#ffffff;
+	text-decoration:none;
+}
+
+.softLinks
+{
+	margin:10px 0px 0px 0px;
+	padding:3px 0px 20px 0px;
+	width:431px;
+}
+.softLinks ul
+{
+	margin:0px;
+	padding:0px;
+}
+.softLinks li
+{	
+	background:url(../images/smart-links-bg.png) left top no-repeat;
+	margin:0px 0px 10px 0px;
+	padding:5px 0px 5px 35px;
+	list-style:none;
+}
+.softLinks li a
+{
+	color:#DAD8BF;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+.devicezone {
+	border-bottom:3px solid #A9A693;
+	border-left:3px solid #A9A693;
+	color:#626262;
+}
+
+.deviceheadingcolumn {
+	background:#73715D url(../images/deviceleft.png) left top repeat-y;
+	border-bottom:1px solid #A9A693;
+	color:#E4E2CE;
+	padding:0px 0px 5px 18px;
+}
+
+h3 {
+	color:#E4E2CE;
+	margin:0px;
+	padding:20px 0px 0px 0px;
+	font-size:11px;
+}
+
+.deviceheading {
+	color:#E4E2CE;
+	margin:0px;
+	padding:8px 0px 8px 0px;
+	font:bold 11px, Verdana, Arial, Helvetica, sans-serif;
+}
+
+h4
+{
+	margin:0px 0px 0px 13px;
+	font-size:18px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	color:#942722;
+	padding:0px;
+
+}
+.aboutText
+{
+	padding:0px 0px 0px 13px;
+	font-size:16px;
+	font-weight:bold;
+	float:left;
+	margin:0px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	color:#53513D;
+}
+.phoneBox1
+{
+	width:202px;
+	margin:0px;
+	padding:48px 0px 0px 0px;
+	background:url(../images/phonepicbg.png) repeat-x;
+	float:left;
+}
+
+.phoneBox2
+{
+	width:202px;
+	margin:0px;
+	padding:48px 0px 0px 0px;
+	background:url(../images/phonepicbg.png) repeat-x;
+	float:left;
+}
+.phn-img {
+	float:right;
+	margin:0px 10px 0px 0px;
+}
+.phoneBox3
+{
+	width:202px;
+	margin:0px;
+	padding:48px 0px 0px 0px;
+	background:url(../images/phonepicbg.png) repeat-x;
+	float:left;
+}
+.devicelink {
+}
+
+.devicelink ul {
+	margin:0px;
+	padding:0px;
+}
+
+.devicelink ul li {
+	background:#DAD8BF url(../images/l-right.png) 95% 50% no-repeat;
+	padding:9px 0px 10px 0px;
+	list-style:none;
+}
+
+.devicelink ul li a {
+	background:url(../images/arrow-invert.png) 10px 3px no-repeat;
+	color:#626262;
+	padding:0px 0px 0px 33px;
+	font-weight:bold;
+}
+
+
+
+/* inner pages css start */
+h1.inner{font:24px Georgia, "Times New Roman", Times, serif; color:#fff; text-align:left; font-weight:100; margin:0px; padding:0 0px 10px 0px; text-decoration:none}
+h1.inner span{color:#ccc9a2;}
+.aboutus-img{float:right; border:4px solid #fff;	margin:0px 0px 10px 20px;}
+h5{font:15px Myriad Pro, Arial, Helvetica, sans-serif; color:#fff; font-weight:100; padding:0px 0px 5px 0px;	border-bottom:1px dotted #fff;	margin:0px 0px 10px 0px; background:none }
+h6{font:17px Myriad Pro, Arial, Helvetica, sans-serif; color:#fff; font-weight:100; padding:0px 0px 5px 0px;	margin:0px 0px 0px 0px; background:none }
+.aboutcolumnzone{padding:20px 0px 16px 0px;}
+.aboutcolumn1{width:48%; float:left; margin:0px 0px 10px 0px;}
+.aboutcolumn2{width:48%; float:right; margin:0px 0px 10px 0px;}
+.abouticon{float:left; margin:0px 20px 0px 0px;}
+.insidereadmore{padding:10px 0px 10px 0px;}
+.insidereadmore a{color:#5D2D23; font-size:14px; text-decoration:none}
+.insidereadmore a:hover{text-decoration:underline}
+
+a.projects{color:#CC9900; font-size:12px; text-decoration:underline}
+a:hover.projects{text-decoration:none}
+
+input.button{color:#ffffff;	background:#414141;	font:bold 11px Arial, Helvetica, sans-serif; text-decoration:none; padding:10px 10px; margin:0px 5px 5px 0;	border:1px solid #fff;}
+input.button:hover{cursor:pointer; color:#cccccc;}
+.project-img{float:right; margin-left:20px;	border: 6px solid #fff;}
+.whiteheading{font:30px Myriad Pro, Arial; color:#000; font-weight:100;	padding:0px; margin:25px 0px 20px 0px;}
+.ourprojectrow{margin-bottom:20px; border-bottom:1px dotted #fff; padding-bottom:10px;}
+.servicecolumnzone{padding:20px 0px 16px 0px;}
+.servicecolumn1{width:48%; float:left; margin:0px 0px 10px 0px;}
+.servicecolumn2{width:48%; float:right;	margin:0px 0px 10px 0px;}
+.blog-posted-row{padding:3px;}
+
+.blog-posted-row a{color:#CC9900; font-size:12px; text-decoration:underline; padding:0 0 0 8px}
+.blog-posted-row a:hover{text-decoration:none}
+/* inner pages css ends */
