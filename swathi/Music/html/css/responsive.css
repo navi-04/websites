@@ -1,0 +1,459 @@
+/*--------------------------------------------------------------------- File Name: responsive.css ---------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------- 991px x 768px ---------------------------------------------------------------------*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .header-search {
+        padding: 15px 0px;
+    }
+}
+
+
+/*------------------------------------------------------------------- 767px x 599px ---------------------------------------------------------------------*/
+
+@media only screen and (min-width: 599px) and (max-width: 767px) {
+    .logo {
+        text-align: center;
+    }
+    .cart-content-right {
+        padding-bottom: 5px;
+    }
+    .mg {
+        margin: 0px 0px;
+    }
+    .menu-area-main {
+        height: 256px;
+        overflow-y: auto;
+    }
+    .megamenu>.row [class*="col-"] {
+        padding: 0px;
+    }
+    .menu-area-main .megamenu .men-cat {
+        padding: 0px 15px;
+    }
+    .menu-area-main .megamenu .women-cat {
+        padding: 0px 15px;
+    }
+    .menu-area-main .megamenu .el-cat {
+        padding: 0px 15px;
+    }
+    .mean-container .mean-nav ul li a.mean-expand {
+        height: 19px;
+    }
+    .category-box.women-box {
+        display: none;
+    }
+    .cart-box {
+        display: inline-block;
+        margin: 0px 30px;
+    }
+    .wish-box {
+        float: none;
+        margin: 0px 30px;
+        display: inline-block;
+    }
+    .menu-add {
+        display: none;
+    }
+    .category-box {
+        display: none;
+    }
+    .mean-container .mean-nav ul li ol {
+        padding: 0px;
+    }
+    .mean-container .mean-nav ul li a {
+        padding: 10px 20px;
+        width: 94.8%;
+    }
+    .mean-container .mean-nav ul li li a {
+        width: 92%;
+        padding: 1em 4%;
+    }
+    .mean-container .mean-nav ul li li li a {
+        width: 100%;
+    }
+    .header-search {
+        padding: 15px 0px;
+    }
+    #collapseFilter.d-md-block {
+        padding: 30px 0px;
+    }
+}
+
+
+/*------------------------------------------------------------------- 599px x 280px ---------------------------------------------------------------------*/
+
+@media only screen and (min-width: 280px) and (max-width: 599px) {
+    .cart-content-right {
+        padding-bottom: 5px;
+    }
+    .megamenu>.row [class*="col-"] {
+        padding: 0px;
+    }
+    .menu-area-main .megamenu .men-cat {
+        padding: 0px 15px;
+    }
+    .menu-area-main .megamenu .women-cat {
+        padding: 0px 15px;
+    }
+    .menu-area-main .megamenu .el-cat {
+        padding: 0px 15px;
+    }
+    .mean-container .mean-nav ul li a {
+        padding: 1em 4%;
+        width: 92%;
+    }
+    .mean-container .mean-nav ul li li a {
+        width: 90%;
+        padding: 1em 5%;
+    }
+    .mean-container .sub-full.megamenu-categories ol li a {
+        padding: 5px 0px;
+        text-transform: capitalize;
+        width: 100%;
+    }
+    .megamenu .sub-full.megamenu-categories .women-box .banner-up-text a {
+        width: auto;
+        border: none;
+        float: none;
+    }
+    .menu-area-main {
+        height: 45px;
+        overflow-y: auto;
+    }
+    .mean-container .mean-nav ul li a.mean-expand {
+        top: 0;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .logo {
+        width: 10%;
+    }
+    .banner_taital {
+        font-size: 42px;
+    }
+    .arrival_text {
+        font-size: 28px;
+    }
+    .arrival_text::after {
+        right: initial;
+        width: 70px;
+        top: 32px;
+    }
+    .mins_text_1 {
+        font-size: 15px;
+    }
+    .mins_text {
+        font-size: 15px;
+    }
+    .long_text {
+        font-size: 14px;
+    }
+    .jesusroch_text {
+        padding-top: 280px;
+    }
+    .paly_bt {
+        padding-top: 20px;
+    }
+    .padding_10 {
+        padding-left: 6px;
+    }
+    .icon_2 {
+        font-size: 13px;
+    }
+    .movies_menu::after {
+        width: 670px;
+        left: initial;
+        top: -10px;
+    }
+    .movies_menu {
+        width: 100%;
+    }
+    .movies_menu li {
+        padding: 0px 14px;
+    }
+    .Cooming_soon_taital {
+        font-size: 30px;
+    }
+    .Cooming_soon_taital::after {
+        right: initial;
+        width: 50px;
+        top: 36px;
+    }
+    .code_text {
+        font-size: 23px;
+    }
+    .there_text {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar-light .navbar-toggler {
+        border-color: #000;
+    }
+    .banner_taital {
+        width: 100%;
+        font-size: 36px;
+        line-height: 50px;
+    }
+    .arrival_text {
+        font-size: 28px;
+    }
+    .arrival_text::after {
+        right: initial;
+        width: 70px;
+        top: 32px;
+    }
+    .movies_menu::after {
+        width: 670px;
+        left: initial;
+        top: -10px;
+    }
+    .movies_menu {
+        width: 100%;
+    }
+    .movies_menu li {
+        padding: 0px 14px;
+    }
+    .code_text {
+        font-size: 16px;
+    }
+    .there_text {
+        font-size: 14px;
+    }
+    .Cooming_soon_taital {
+        font-size: 30px;
+    }
+    .Cooming_soon_taital::after {
+        right: initial;
+        width: 50px;
+        top: 36px;
+    }
+    .number_text {
+        margin-top: 40px;
+    }
+    .playnow_bt {
+        width: 170px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    #main_slider a.carousel-control-prev {
+        position: absolute;
+        left: 175px;
+        top: 90%;
+        display: none;
+    }
+    #main_slider a.carousel-control-next {
+        position: absolute;
+        left: 236px;
+        top: 90%;
+        display: none;
+    }
+    .banner_section {
+        background: #3c0e0e;
+    }
+    .banner_taital {
+        width: 75%;
+        font-size: 42px;
+        line-height: 60px;
+    }
+    .banner_text {
+        width: 100%;
+    }
+    .play_icon {
+        display: none;
+    }
+    .jesusroch_text {
+        padding-top: 240px;
+    }
+    .mins_text {
+        width: 100%;
+        font-size: 17px;
+    }
+    .icon_2 {
+        font-size: 15px;
+    }
+    .arrival_text {
+        font-size: 40px;
+    }
+    .arrival_text::after {
+        right: initial;
+        width: 80px;
+        top: 42px;
+    }
+    .long_text {
+        font-size: 14px;
+    }
+    .movies_menu li {
+        font-size: 16px;
+        padding: 0px 7px;
+    }
+    .movies_menu::after {
+        width: 510px;
+        text-align: center;
+        right: 0;
+        top: -8px;
+        left: 0px;
+    }
+    .movies_menu {
+        width: 100%;
+    }
+    .movies_main {
+        width: 100%;
+        float: left;
+    }
+    .code_text {
+        font-size: 24px;
+    }
+    .iamge_movies_main {
+        display: initial;
+    }
+    .iamge_movies {
+        margin: 0px;
+    }
+    .newsletter_text {
+        font-size: 34px;
+    }
+    .box_main {
+        width: 100%;
+        padding: 20px;
+    }
+    .email_text {
+        width: 80%;
+    }
+    .right_arrow {
+        width: 20%;
+    }
+    .cooming_section .row {
+        flex-direction: column-reverse;
+    }
+    .Cooming_soon_taital {
+        font-size: 30px;
+    }
+    .Cooming_soon_taital::after {
+        right: initial;
+        width: 50px;
+        top: 36px;
+    }
+    .image_17 {
+        margin-top: 30px;
+    }
+    .footer_menu li {
+        padding: 0px 17px;
+    }
+    .number_text {
+        margin-top: 0px;
+    }
+    .playnow_bt {
+        width: 170px;
+    }
+}
+
+@media (max-width: 575px) {
+    #main_slider a.carousel-control-prev {
+        position: absolute;
+        left: 175px;
+        top: 90%;
+        display: none;
+    }
+    #main_slider a.carousel-control-next {
+        position: absolute;
+        left: 236px;
+        top: 90%;
+        display: none;
+    }
+    .banner_section {
+        background: #3c0e0e;
+    }
+    .banner_taital {
+        width: 95%;
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .banner_text {
+        width: 100%;
+    }
+    .play_icon {
+        display: none;
+    }
+    .jesusroch_text {
+        padding-top: 280px;
+    }
+    .arrival_text {
+        font-size: 40px;
+    }
+    .arrival_text::after {
+        right: initial;
+        width: 80px;
+        top: 42px;
+    }
+    .movie_main {
+        display: initial;
+    }
+    .mins_text_1 {
+        width: 100%;
+    }
+    .long_text {
+        font-size: 14px;
+    }
+    .movies_menu li {
+        font-size: 18px;
+        padding: 0px 7px;
+    }
+    .movies_menu {
+        width: 100%;
+    }
+    .movies_main {
+        width: 100%;
+        float: left;
+    }
+    .iamge_movies {
+        margin: 0;
+    }
+    .iamge_movies_main {
+        display: initial;
+    }
+    .newsletter_text {
+        font-size: 21px;
+    }
+    .box_main {
+        width: 100%;
+        padding: 20px;
+    }
+    .email_text {
+        width: 80%;
+    }
+    .right_arrow {
+        width: 20%;
+    }
+    .cooming_section .row {
+        flex-direction: column-reverse;
+    }
+    .Cooming_soon_taital {
+        font-size: 30px;
+    }
+    .Cooming_soon_taital::after {
+        right: initial;
+        width: 50px;
+        top: 36px;
+    }
+    .image_17 {
+        margin-top: 30px;
+    }
+    .footer_menu li {
+        padding: 0px 18px;
+    }
+    .image_2 {
+        margin-top: 30px;
+    }
+    .number_text {
+        margin-top: 0px;
+    }
+    .playnow_bt {
+        width: 170px;
+    }
+}
