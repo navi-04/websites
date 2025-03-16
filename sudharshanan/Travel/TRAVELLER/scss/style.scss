@@ -1,0 +1,341 @@
+/******* Bootstrap Theming ********/
+
+$primary: #7AB730;
+$secondary: lighten($primary, 50%);
+$light: #FFFFFF;
+$dark: #212121;
+
+$font-family-sans-serif: 'Poppins', sans-serif;
+
+$body-bg: #F3F3F3;
+
+$body-color: #656565;
+
+$headings-color: $dark;
+
+$enable-responsive-font-sizes: true;
+
+$enable-rounded: false;
+
+@import "bootstrap/scss/bootstrap";
+
+
+/********** Custom CSS ************/
+
+h1,
+h2,
+.font-weight-bold {
+    font-weight: 700 !important;
+}
+
+h3,
+h4,
+.font-weight-semi-bold {
+    font-weight: 600 !important;
+}
+
+h5,
+h6,
+.font-weight-medium {
+    font-weight: 500 !important;
+}
+
+.btn-square {
+    width: 36px;
+    height: 36px;
+}
+
+.btn-sm-square {
+    width: 28px;
+    height: 28px;
+}
+
+.btn-lg-square {
+    width: 46px;
+    height: 46px;
+}
+
+.btn-square,
+.btn-sm-square,
+.btn-lg-square {
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+}
+
+.back-to-top {
+    position: fixed;
+    display: none;
+    right: 45px;
+    bottom: 45px;
+    z-index: 11;
+}
+
+.nav-bar::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 50%;
+    top: 0;
+    left: 0;
+    background: $light;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    padding: 30px 15px;
+    color: $dark;
+    font-weight: 500;
+    outline: none;
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link.active {
+    color: $primary;
+}
+
+@media (max-width: 991.98px) {
+    .navbar-light .navbar-nav .nav-link  {
+        padding: 10px 15px;
+    }
+}
+
+@media (min-width: 992px) {
+    #header-carousel,
+    .page-header {
+        margin-top: -42px;
+    }
+}
+
+.carousel-caption {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, .5);
+    z-index: 1;
+}
+
+@media (max-width: 576px) {
+    .carousel-caption h4 {
+        font-size: 18px;
+    }
+
+    .carousel-caption h1 {
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 768px) {
+    .booking {
+        position: relative;
+        margin-top: -60px !important;
+        z-index: 1;
+    }
+}
+
+@media (min-width: 992px) {
+    .about-text {
+        margin-left: -120px;
+    }
+}
+
+.page-header {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/carousel-2.jpg), no-repeat center center;
+    background-size: cover;
+}
+
+.destination-item img {
+    transition: .5s;
+}
+
+.destination-item:hover img {
+    transform: scale(1.3)
+}
+
+.destination-overlay {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    bottom: 30px;
+    left: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(256, 256, 256, 0.5);
+    transition: .5s;
+    z-index: 1;
+}
+
+.destination-item:hover .destination-overlay {
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    border-width: 30px;
+}
+
+.service-item {
+    transition: .5s;
+}
+
+.service-item:hover {
+    box-shadow: 0 0 30px #CCCCCC;
+}
+
+.service-item i {
+    width:75px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid $primary;
+    background: $light;
+    color: $primary;
+    transition: .5s;
+}
+
+.service-item:hover i {
+    background: $primary;
+    color: $light;
+}
+
+.package-item {
+    transition: .5s;
+}
+
+.package-item:hover {
+    box-shadow: 0 0 30px #CCCCCC;
+}
+
+.bg-registration {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/carousel-1.jpg), no-repeat center center;
+    background-size: cover;
+}
+
+.team-item {
+    transition: .5s;
+}
+
+.team-social {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .5s;
+}
+
+.team-social a.btn {
+    position: relative;
+    margin: 0 3px;
+    margin-top: 100px;
+    opacity: 0;
+}
+
+.team-item:hover {
+    box-shadow: 0 0 30px #CCCCCC;
+}
+
+.team-item:hover .team-social {
+    background: rgba(0, 0, 0, .5);
+}
+
+.team-item:hover .team-social a.btn:first-child {
+    opacity: 1;
+    margin-top: 0;
+    transition: .3s 0s;
+}
+
+.team-item:hover .team-social a.btn:nth-child(2) {
+    opacity: 1;
+    margin-top: 0;
+    transition: .3s .05s;
+}
+
+.team-item:hover .team-social a.btn:nth-child(3) {
+    opacity: 1;
+    margin-top: 0;
+    transition: .3s .1s;
+}
+
+.team-item:hover .team-social a.btn:nth-child(4) {
+    opacity: 1;
+    margin-top: 0;
+    transition: .3s .15s;
+}
+
+.team-item .team-img img  {
+    transition: .5s;
+}
+
+.team-item:hover .team-img img {
+    transform: scale(1.2);
+}
+
+.testimonial-carousel .owl-dots {
+    margin-top: 5px;
+    text-align: center;
+}
+
+.testimonial-carousel .owl-dot {
+    position: relative;
+    display: inline-block;
+    margin: 0 5px;
+    width: 20px;
+    height: 20px;
+    background: #DDDDDD;
+    transition: .5s;
+}
+
+.testimonial-carousel .owl-dot.active {
+    width: 40px;
+    background: $primary;
+}
+
+.testimonial-carousel .owl-item.center .testimonial-text {
+    box-shadow: 0 0 30px #CCCCCC;
+}
+
+.blog-item {
+    transition: .5s;
+}
+
+.blog-item:hover {
+    box-shadow: 0 0 30px #CCCCCC;
+}
+
+.blog-date {
+    position: absolute;
+    width: 60px;
+    height: 45px;
+    top: 30px;
+    left: -15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: $primary;
+}
+
+.blog-date::after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    top: -15px;
+    left: 0;
+    border: 8px solid;
+    border-color: transparent darken($primary, 10%) darken($primary, 10%) transparent;
+    z-index: -1;
+}
+
+.contact-form .help-block ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
