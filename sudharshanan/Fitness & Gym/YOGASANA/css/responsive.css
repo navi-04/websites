@@ -1,0 +1,362 @@
+
+
+/*--------------------------------------------------------------------- File Name: responsive.css ---------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------- 991px x 768px ---------------------------------------------------------------------*/
+
+@media (min-width: 1200px) and (max-width: 1342px) {
+    .yoga_box h1 {
+        font-size: 132px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .yoga_box h1 {
+        font-size: 104px;
+    }
+    .titlepage h2 {
+        font-size: 39px;
+    }
+    .ye_b5n {
+        margin-top: 26px;
+    }
+    .pricing {
+        padding: 45px 30px 0px 30px;
+    }
+    .bottom_form .enter {
+        width: 57%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .header {
+        padding: 15px 0px;
+    }
+    .logo {
+        width: 98px;
+    }
+    .navigation.navbar {
+        padding-top: 20px !important;
+    }
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 9px 11px;
+    }
+    .yo_img img {
+        min-height: 301px;
+    }
+    #myCarousel .carousel-control-prev,
+    #myCarousel .carousel-control-next {
+        width: 55px;
+        height: 55px;
+    }
+    .yoga_box h1 {
+        font-size: 77px;
+        line-height: 103px;
+    }
+    .yoga_img figure img {
+        height: 406px;
+    }
+    .titlepage h2 {
+        font-size: 31px;
+        line-height: 30px;
+    }
+    .bottom_form .enter {
+        width: 57%;
+    }
+    .pricing h4 {
+        font-size: 25px;
+    }
+    .pricing h3 {
+        font-size: 65px;
+        line-height: 37px;
+    }
+    .pricing {
+        padding: 45px 5px 0px 5px;
+    }
+    #testimo .carousel-control-next {
+        left: 11%;
+    }
+    .main_form {
+        padding: 40px 30px;
+    }
+    .sub_btn {
+        max-width: 203px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .inner_page .full_bg {padding-bottom: 61px;}
+    .header {
+        height: 76px;
+        padding: 15px 0px;
+    }
+   
+    .logo a img {
+        position: relative;
+        z-index: 9999;
+    }
+    .logo::before {
+        position: absolute;
+        content: "";
+        top: -15px;
+        background: url(../images/lo_be.png);
+        width: 270px;
+        height: 138px;
+        left: 0;
+        background-repeat: no-repeat;
+    }
+    
+    .yoga_box {
+        padding-top: 20%;
+    }
+
+    .yo_img img {
+        display: none;
+    }
+    #myCarousel .carousel-control-prev,
+    #myCarousel .carousel-control-next {
+        width: 55px;
+        height: 55px;
+        top: 62%;
+    }
+    .margin_top {
+        margin-top: 0px;
+    }
+    .margin_bott {
+        margin-bottom: 0px;
+    }
+    .middle {
+        margin: 0;
+        padding-top: 37px;
+    }
+    .padd_top30 {
+        padding-top: 30px !important;
+    }
+    .balance {
+        margin: 0;
+    }
+    .padding_right0 {
+        padding-right: 15px;
+    }
+    .padding_left0 {
+        padding-left: 15px;
+    }
+    .yoga_box h1 {
+        font-size: 104px;
+        line-height: 109px;
+    }
+    #testimo .carousel-control-next {
+        right: inherit;
+        left: 9%;
+    }
+    ul.link_menu {
+        margin-bottom: 20px;
+    }
+    .bottom_form .enter {
+        width: 100%;
+    }
+    .many {
+        margin-bottom: 20px;
+    }
+    .navigation.navbar {
+        float: right;
+        display: inherit !important;
+        padding: 0;
+        width: 100%;
+        padding-top: 18px !important;
+    }
+    .navigation .navbar-collapse {
+        background: #001935;
+        padding: 20px;
+        margin-top: 68px;
+        position: absolute;
+        width: 100%;
+        z-index: 999;
+    }
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 10px 0;
+        color: #fff;
+    }
+    .navigation.navbar-dark .navbar-toggler {
+        border: inherit;
+        float: right;
+        padding-top: 9px;
+    }
+    .navigation.navbar-dark .navbar-nav .nav-link:focus,
+    .navigation.navbar-dark .navbar-nav .nav-link:hover {
+        background: transparent;
+        border-radius: 0px;
+        color: #f4a111;
+    }
+    .navigation.navbar-dark .navbar-nav .active>.nav-link,
+    .navigation.navbar-dark .navbar-nav .nav-link.active,
+    .navigation.navbar-dark .navbar-nav .nav-link.show,
+    .navigation.navbar-dark .navbar-nav .show>.nav-link {
+        background: transparent;
+        border-radius: 0px;
+        color: #f4a111;
+    }
+    .navigation.navbar-dark .navbar-toggler-icon {
+        background: url(../images/menu_icon.png);
+        background-repeat: no-repeat;
+    }
+    .d_none {
+        display: none;
+    }
+}
+
+@media (max-width: 575px) {
+      .inner_page .full_bg {
+        padding-bottom: 61px;
+    }
+    .back_re .title h2 {
+        font-size: 31px;
+    }
+    .logo a img {
+        position: relative;
+        z-index: 9999;
+    }
+    .logo::before {
+        position: absolute;
+        content: "";
+        top: -15px;
+        background: url(../images/lo_be.png);
+        width: 270px;
+        height: 138px;
+        left: -40px;
+        background-repeat: no-repeat;
+    }
+    .logo {
+        text-align: center !important;
+        padding-bottom: 6px;
+        float: left;
+        position: relative;
+    }
+    .header {
+        height: 76px;
+        padding: 15px 0px;
+    }
+    .logo {
+        width: 98px;
+    }
+    .yo_img img {
+        display: none;
+    }
+    #myCarousel .carousel-control-prev,
+    #myCarousel .carousel-control-next {
+        width: 55px;
+        height: 55px;
+        top: 55%;
+    }
+    .titlepage h2 {
+        font-size: 31px;
+        line-height: 31px;
+    }
+    .pricing h4 {
+        font-size: 27px;
+    }
+    .pricing {
+        padding: 45px 5px 0px 5px;
+    }
+    .margin_top {
+        margin-top: 0px;
+    }
+    .margin_bott {
+        margin-bottom: 0px;
+    }
+    .middle {
+        margin: 0;
+        padding-top: 37px;
+    }
+    .padd_top30 {
+        padding-top: 30px !important;
+    }
+    .balance {
+        margin: 0; 
+        margin-top: 10px !important;
+    }
+    .padding_right0 {
+        padding-right: 15px;
+    }
+    .padding_left0 {
+        padding-left: 15px;
+    }
+    .yoga_box h1 {
+        font-size: 71px;
+        line-height: 87px;
+    }
+    .relative2 {
+        padding: 0px 23px 80px 23px;
+    }
+    .aliq {
+        padding: 0px;
+    }
+    .qusleft {
+        padding-left: 7px;
+    }
+    #testimo .carousel-control-next {
+        right: inherit;
+        left: 16%;
+    }
+    .main_form {
+        padding: 40px 20px;
+    }
+    .newslatter h4 {
+        font-size: 22px;
+    }
+    ul.link_menu {
+        margin-bottom: 20px;
+    }
+    .bottom_form .enter {
+        width: 100%;
+    }
+    .many {
+        margin-bottom: 20px;
+    }
+    .navigation.navbar {
+        float: right;
+        display: inherit !important;
+        padding: 0;
+        padding-top: 0px !important;
+        width: 100%;
+    }
+    .navigation .navbar-collapse {
+        background: #001935;
+        padding: 20px;
+        margin-top: -5px;
+        position: absolute;
+        width: 100%;
+        z-index: 999;
+    }
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 10px 0;
+        color: #fff;
+    }
+    .navigation.navbar-dark .navbar-toggler {
+        float: right;
+        border: inherit;
+        margin-top: -61px;
+    }
+    .navigation.navbar-dark .navbar-nav .nav-link:focus,
+    .navigation.navbar-dark .navbar-nav .nav-link:hover {
+        background: transparent;
+        border-radius: 0px;
+        color: #f4a111;
+    }
+    .navigation.navbar-dark .navbar-nav .active>.nav-link,
+    .navigation.navbar-dark .navbar-nav .nav-link.active,
+    .navigation.navbar-dark .navbar-nav .nav-link.show,
+    .navigation.navbar-dark .navbar-nav .show>.nav-link {
+        background: transparent;
+        border-radius: 0px;
+        color: #f4a111;
+    }
+    .navigation.navbar-dark .navbar-toggler-icon {
+        background: url(../images/menu_icon.png);
+        background-repeat: no-repeat;
+    }
+    .d_none {
+        display: none;
+    }
+}

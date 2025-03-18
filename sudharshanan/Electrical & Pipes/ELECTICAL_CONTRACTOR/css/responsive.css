@@ -1,0 +1,308 @@
+/*--------------------------------------------------------------------- File Name: responsive.css ---------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------- 991px x 768px ---------------------------------------------------------------------*/
+
+@media (min-width: 1200px) and (max-width: 1342px) {}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .project .project_box h3 {
+        font-size: 25px;
+    }
+    .before_top::before,
+    .before_bottom::before {
+        width: 334px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .logo {
+        margin-top: 4px;
+    }
+    .right_button {
+        padding-top: 6px;
+    }
+    .right_button .login_btn {
+        padding-right: 12px;
+    }
+    .navigation.navbar {
+        padding-top: 12px !important;
+    }
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 0px 9px;
+        font-size: 16px;
+    }
+    .banner_main {
+        min-height: 655px;
+    }
+    .text-bg .read_more {
+        margin-right: 5px;
+        padding: 11px 0;
+        max-width: 186px;
+    }
+    #banner1 .carousel-control-prev,
+    #banner1 .carousel-control-next {
+        top: 117%;
+    }
+    .titlepage h2 {
+        font-size: 35px;
+    }
+    .project .project_box h3 {
+        font-size: 20px;
+    }
+    .before_top::before,
+    .before_bottom::before {
+        width: 255px;
+    }
+    .main_form {
+        margin-top: 47px;
+    }
+    ul.location_icon li {
+        padding: 9px 0px;
+        font-size: 15px;
+    }
+    ul.social_icon li a {
+        width: 41px;
+        font-size: 22px;
+        height: 41px;
+    }
+    .footer p {
+        padding-right: 21px;
+        font-size: 15px;
+    }
+    .neslatter {
+        font-size: 20px !important;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .logo {
+        width: 130px;
+        margin-top: 5px;
+    }
+    .banner_main {
+        min-height: 576px;
+    }
+    .text-bg h1 {
+        font-size: 48px;
+        line-height: 51px;
+    }
+    #banner1 .carousel-control-prev,
+    #banner1 .carousel-control-next {
+        top: 120%;
+    }
+    .titlepage h2 {
+        font-size: 26px;
+        line-height: 29px;
+    }
+    .before_top::before,
+    .before_bottom::before {
+        left: 0px;
+        background-position: center center;
+        text-align: center;
+        right: 0;
+        width: initial;
+    }
+    .margin_top1 {
+        margin-top: 0px;
+    }
+    .footer h3 {
+        padding-top: 20px;
+    }
+    .padding_right2 {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .map_section {
+        margin-top: 30px;
+    }
+    .news_form .letter_form {
+        width: 100%;
+    }
+    .news_form .sumbit {
+        float: left;
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+    .neslatter {
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+    }
+    .main_form {
+        padding-left: 0px;
+    }
+    .right_button {
+        display: none;
+    }
+    .navigation.navbar {
+        float: right;
+        display: inherit !important;
+        padding: 0;
+        width: 100%;
+        padding-top: 2px !important;
+    }
+    .navigation .navbar-collapse {
+        background: #0000ff;
+        padding: 20px;
+        margin-top: 89px;
+        position: absolute;
+        width: 100%;
+        z-index: 999;
+    }
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 10px 0;
+        color: #fff;
+    }
+    .navigation.navbar-dark .navbar-nav .nav-link:focus,
+    .navigation.navbar-dark .navbar-nav .nav-link:hover {
+        color: #f9bf16;
+    }
+    .navigation.navbar-dark .navbar-nav .active>.nav-link,
+    .navigation.navbar-dark .navbar-nav .nav-link.active,
+    .navigation.navbar-dark .navbar-nav .nav-link.show,
+    .navigation.navbar-dark .navbar-nav .show>.nav-link {
+        color: #f9bf16;
+    }
+    .navigation.navbar-dark .navbar-toggler {
+        border: inherit;
+        float: right;
+        padding-top: 6px;
+    }
+    .navigation.navbar-dark .navbar-toggler-icon {
+        background: url(../images/menu_icon.png);
+        background-repeat: no-repeat;
+        width: 64px;
+        height: 44px;
+    }
+}
+
+@media (max-width: 575px) {
+    .header {
+        padding: 25px 0px 25px 0px;
+    }
+    .logo {
+        border: inherit;
+        float: left;
+        margin-top: 0px !important;
+    }
+    .banner_main {
+        padding: 99px 0px 0px 0px;
+        min-height: 547px;
+    }
+    .text-bg h1 {
+        font-size: 41px;
+        padding-bottom: 20px;
+        line-height: 50px;
+    }
+    .text-bg .read_more {
+        margin-right: 7px;
+        padding: 6px 0;
+        max-width: 136px;
+    }
+    #banner1 .carousel-control-prev,
+    #banner1 .carousel-control-next {
+        top: 115%;
+    }
+    .titlepage h2 {
+        font-size: 25px;
+        line-height: 34px;
+    }
+    .service .titlepage p {
+        padding-left: 0px;
+    }
+    .service .service_box i img {
+        float: initial;
+        padding-right: 0px;
+    }
+    .service .service_text h3 {
+        padding-bottom: 15px;
+        margin-top: 10px;
+    }
+    .service .service_box {
+        margin-bottom: 30px;
+    }
+    .margin_top1 {
+        margin-top: 0px;
+    }
+    .project .project_box h3 {
+        font-size: 28px;
+    }
+    .before_top::before,
+    .before_bottom::before {
+        left: 4px;
+        width: 309px;
+    }
+    .footer h3 {
+        padding-top: 20px;
+        font-size: 22px;
+    }
+    .padding_right2 {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .map_section {
+        margin-top: 30px;
+    }
+    ul.location_icon li {
+        font-size: 16px;
+    }
+    .news_form .letter_form {
+        width: 100%;
+    }
+    .news_form .sumbit {
+        float: left;
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+    .neslatter {
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+    }
+    .main_form {
+        padding-left: 0px;
+    }
+    .right_button {
+        display: none;
+    }
+    .navigation.navbar {
+        float: right;
+        display: inherit !important;
+        padding: 0;
+        width: 100%;
+        margin-top: -68px;
+    }
+    .navigation .navbar-collapse {
+        background: #0000ff;
+        padding: 20px;
+        margin-top: 82px;
+        position: absolute;
+        width: 100%;
+        z-index: 999;
+    }
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 10px 0;
+        color: #fff;
+    }
+    .navigation.navbar-dark .navbar-nav .nav-link:focus,
+    .navigation.navbar-dark .navbar-nav .nav-link:hover {
+        color: #f9bf16;
+    }
+    .navigation.navbar-dark .navbar-nav .active>.nav-link,
+    .navigation.navbar-dark .navbar-nav .nav-link.active,
+    .navigation.navbar-dark .navbar-nav .nav-link.show,
+    .navigation.navbar-dark .navbar-nav .show>.nav-link {
+        color: #f9bf16;
+    }
+    .navigation.navbar-dark .navbar-toggler {
+        float: right;
+        margin-right: 2px;
+        border: inherit;
+    }
+    .navigation.navbar-dark .navbar-toggler-icon {
+        background: url(../images/menu_icon.png);
+        background-repeat: no-repeat;
+        width: 64px;
+        height: 44px;
+    }
+}
+

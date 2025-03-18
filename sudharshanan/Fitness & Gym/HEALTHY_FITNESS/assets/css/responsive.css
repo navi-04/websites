@@ -1,0 +1,322 @@
+
+
+/*
+Author: Bootstrapthemes
+Author URI: http://bootstrapthemes.co
+*/
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+    body {
+        font-size: 1rem;
+    }
+    .single_slider {
+        max-width: 38%;
+    }
+    .summer .main_summer_area .single_summer .single_summer_item_right .single_summer_item_img_right img {
+        max-height: 330px;
+    }
+    .main_summer_area2 .single_summer2 .single_summer_item2 .single_summer_item_left_content2 {
+        min-height: 362px;
+    }
+    .single_bottom_widget .form-group input[type="email"] {
+        width: 40%;
+    }
+    .single_bottom_widget .form-group button[type="submit"] {
+        width: 27%;
+    }
+    h2 {
+        font-size: 1.675rem;
+    }
+    .main_summer_area2 .single_summer2 .single_summer_item2_righ .single_summer_item_bottom_content2_right h2 {
+        margin-bottom: 25px;
+    }
+    .summer .main_summer_area .single_summer .single_summer_item .single_summer_item_img img {
+        min-height: 330px;
+    }
+    .summer .main_summer_area .single_summer .single_summer_item .single_summer_item_left_content p {
+        font-size:1.1rem;
+        line-height: 1.5rem;
+    }
+    .main_summer_area2 .single_summer2 .single_summer_item2_righ .single_summer_item_bottom_content2_right {
+        min-height: 362px;
+    }
+
+
+}
+
+/* Portrait tablets and small desktops */
+@media  (min-width:769px) and (max-width: 991px) {
+    html {
+        font-size: 90%;
+    }
+    .single_slider {
+        max-width: 45%;
+    }
+    .feature .main_feature_content_area .main_feature_content .single_feature h3 {
+        font-size: 1.175rem;
+    }
+
+    .summer .main_summer_area .single_summer .single_summer_item_right .single_summer_item_img_right img {
+        min-height: 330px;
+    }
+    .main_summer_area2 .single_summer2 .single_summer_item2_righ .single_summer_item_bottom_content2_right h2 {
+        color: #fff;
+        margin-bottom: 30px;
+        font-size: 1.675rem;
+    }
+    .main_summer_area2 .single_summer2 .single_summer_item2 .single_summer_item_left_content2 h2 {
+        font-size:1.675rem;
+        margin-bottom:30px;
+    }
+    .single_top_widget_right_socail .socail_area a i, i.fa-facebook {
+        font-size: 1.1875rem;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+    }
+    .single_bottom_widget .form-group input[type="email"] {
+        width: 40%;
+    }
+    .single_bottom_widget .form-group button[type="submit"] {
+        width: 27%;
+    }
+    .single_bottom_widget .form-group button.form-control i.lnr {
+        margin-left: 4px;
+    }
+
+
+
+
+
+}
+/* Landscape phones and portrait tablets */
+@media (min-width:480px) and (max-width: 768px) {
+    html {
+        font-size: 80%;
+    }
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+        border-color: transparent;
+        background: rgba(230, 125, 68, 0.68);
+    }
+    .single_slider {
+        margin-top: 55%;
+        max-width: 65%;
+    }
+    .features_area .single_features {
+        max-width: 50%;
+        margin: 20px auto;
+    }
+    .features_area .single_features h2 {
+        margin-bottom: 10px;
+    }
+    .features_area .single_features .feature_icon {
+        margin-bottom: 10px;
+    }
+    .first_fitness_area .single_left_first_fitness .left_first_fitness_content p {
+        max-width: 50%;
+        margin: 0 auto;
+        padding-bottom: 15px;
+    }
+    .summer .main_summer_area .single_summer .single_summer_item .single_summer_item_left_content p {
+        max-width: 60%;
+        line-height: 20px;
+    }
+    .single_summer_item_bottom_content p {
+        max-width: 60%;
+        line-height: 20px;
+    }
+    .main_summer_area2 .single_summer2 .single_summer_item2 .single_summer_item_left_content2 p {
+        max-width: 60%;
+        line-height: 20px;
+    }
+    .main_summer_area2 .single_summer2 .single_summer_item2_righ .single_summer_item_bottom_content2_right p {
+        max-width: 60%;
+        line-height: 20px;
+    }
+    .footer_widget_area .single_widget{
+        max-width: 50%;
+    }
+    .single_bottom_widget .form-group input[type="text"] {
+        width: 25%;
+    }
+    .single_bottom_widget .form-group input[type="email"] {
+        width: 40%;
+    }
+    .single_bottom_widget .form-group button[type="submit"] {
+        width: 30%;
+        font-size: .875rem;
+    }
+    .single_bottom_widget .form-group button.form-control i.lnr {
+        margin-left: 4px;
+    }
+    .single_top_widget_right_socail .socail_area a i, i.fa-facebook {
+        font-size: 1.1875rem;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+    }
+
+    .single_summer_item_bottom_content h2 {
+        font-size: 1rem;
+    }
+
+
+
+
+
+}
+
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 768px) {
+
+    .first_fitness_area .single_right_first_fitness .single_right_first_fitness_img img {
+        height: auto; 
+    }
+    .main_summer_area2 .single_summer2 .single_summer_item2 .single_summer_item_img2 img {
+        min-height: auto; 
+    }
+    .main_summer_area2 .single_summer2 .single_summer_item2_righ .single_summer_item_img2_right img {
+        min-height: auto;
+    }
+    .first_fitness_area .single_left_first_fitness {
+        min-height: auto;
+    }
+    .bigidea {
+        height: auto; 
+
+    }
+    .bigidea .main_bigidea_area {
+        margin-top: 20px;
+        padding: 40px;
+    }
+    .single_slider {
+         margin-top:20%; 
+        max-width: 80%;
+    }
+
+}
+
+
+
+/* Landscape phones and smaller */
+@media (min-width:320px) and (max-width: 479px) {
+    html {
+        font-size: 65%;
+    }
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+        border-color: transparent;
+        background: rgba(230, 125, 68, 0.68);
+    }
+    .single_slider {
+        margin-top: 55%;
+        max-width: 80%;
+    }
+    .features_area .single_features {
+        max-width: 50%;
+        margin: 20px auto;
+    }
+    .features_area .single_features h2 {
+        margin-bottom: 10px;
+    }
+    .features_area .single_features .feature_icon {
+        margin-bottom: 10px;
+    }
+    .first_fitness_area .single_left_first_fitness .left_first_fitness_content p {
+        max-width: 50%;
+        margin: 0 auto;
+        padding-bottom: 15px;
+    }
+    .summer .main_summer_area .single_summer .single_summer_item .single_summer_item_left_content p {
+        max-width: 60%;
+        line-height: 20px;
+    }
+    .single_summer_item_bottom_content p {
+        max-width: 60%;
+        line-height: 20px;
+    }
+    .main_summer_area2 .single_summer2 .single_summer_item2 .single_summer_item_left_content2 p {
+        max-width: 60%;
+        line-height: 20px;
+    }
+    .main_summer_area2 .single_summer2 .single_summer_item2_righ .single_summer_item_bottom_content2_right p {
+        max-width: 60%;
+        line-height: 20px;
+    }
+    .footer_widget_area .single_widget{
+        max-width: 50%;
+    }
+    .single_bottom_widget .form-group input[type="text"] {
+        width: 100%;
+
+    }
+    .single_bottom_widget .form-group input[type="email"] {
+        width: 100%;
+        margin:10px 0px;
+    }
+    .single_bottom_widget .form-group button[type="submit"] {
+        width: 100%;
+    }
+    .single_bottom_widget .form-group button.form-control i.lnr {
+        margin-left: 4px;
+    }
+    .single_bottom_widget .form-group button.form-control i.lnr {
+        margin-left: 4px;
+    }
+    .single_top_widget_right_socail .socail_area a i, i.fa-facebook {
+        font-size: 1.1875rem;
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        margin-right: 2px;
+    }
+
+
+}
+
+
+
+@media (max-width: 320px) {
+
+
+    html {
+        font-size: 60.5%;
+    }
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+        border-color: transparent;
+        background: rgba(230, 125, 68, 0.68);
+    }
+    .single_slider {
+        margin-top: 55%;
+        max-width: 90%;
+    }
+    .single_bottom_widget .form-group input[type="text"] {
+        width: 100%;
+
+    }
+    .single_bottom_widget .form-group input[type="email"] {
+        width: 100%;
+        margin:10px 0px;
+    }
+    .single_bottom_widget .form-group button[type="submit"] {
+        width: 100%;
+    }
+    .single_bottom_widget .form-group button.form-control i.lnr {
+        margin-left: 4px;
+    }
+    .single_top_widget_right_socail .socail_area a i, i.fa-facebook {
+        font-size: 1.1875rem;
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        margin-right: 2px;
+    }
+
+
+
+
+
+
+}
+
