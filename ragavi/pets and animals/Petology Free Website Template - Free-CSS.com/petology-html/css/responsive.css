@@ -1,0 +1,141 @@
+@media (max-width: 1120px) {
+  .hero_area {
+    height: auto;
+  }
+
+  .slider_section {
+    padding: 50px 0;
+  }
+
+  .quote_btn-container {
+    display: none;
+  }
+
+  .quote_btn-container a {
+    display: none;
+  }
+}
+
+@media (max-width: 992px) {
+  .custom_nav-container .nav_search-btn {
+    background-position: center;
+  }
+
+  .map_section .form_container form {
+    width: 450px;
+  }
+}
+
+@media (max-width: 768px) {
+  .slider_detail-box {
+    text-align: center;
+  }
+  .info_section .col-md-3 {
+    text-align: center;
+  }
+
+  .info_section .col-md-3:not(:nth-last-child(1)) {
+    margin-bottom: 35px;
+  }
+
+  .tasty_section h2 {
+    font-size: 80px;
+  }
+
+  .contact_section {
+    background-size: cover;
+  }
+
+  .info_items {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .info_items .item {
+    margin: 20px 0;
+  }
+
+  .info_items::before {
+    display: none;
+  }
+
+  .slider_img-box {
+    margin: 25px 0 45px 0;
+  }
+
+  .carousel-indicators {
+    bottom: -5%;
+  }
+
+  .col-md-6.offset-md-2 {
+    margin: 40px 0;
+    text-align: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .client_section .client_container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .client_section .pl-100 {
+    padding-left: 0;
+  }
+
+  .client_section .client_container .img_box {
+    margin: -150px auto 25px auto;
+  }
+
+  .client_section .client_container {
+    margin-top: 100px;
+  }
+
+  .gallery-section .container {
+    flex-direction: column;
+  }
+
+  .gallery-section .img_box {
+    width: 100% !important;
+  }
+
+  .map_section .form_container {
+    width: 100%;
+  }
+
+  .map_section .form_container form {
+    width: 100%;
+  }
+
+  .map_section #map {
+    position: relative;
+    height: 450px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .slider_detail-box h1 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 420px) {
+}
+
+@media (max-width: 360px) {
+  .btn-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .slider_detail-box .btn-box .btn-1 {
+    margin-bottom: 10px;
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1170px;
+  }
+}
