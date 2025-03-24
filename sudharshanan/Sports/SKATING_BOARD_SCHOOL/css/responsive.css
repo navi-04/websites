@@ -1,0 +1,343 @@
+/*--------------------------------------------------------------------- 
+File Name: responsive.css 
+---------------------------------------------------------------------*/
+
+@media (min-width: 1200px) and (max-width: 1342px) {}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .slider_main {
+       padding-top: 9%;
+    }
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 15px 26px;
+    }
+    .relative h3 {
+        padding-bottom: 25px;
+    }
+    #carouselExampleIndicators .carousel-control-prev {
+        left: 3%;
+    }
+    .about {
+        padding: 90px 0;
+    }
+    #myCarousel a.carousel-control-prev {
+       left: 41%;
+    }
+    ul.fullink li {
+        padding: 0px 16px;
+    }
+    ul.social_icon li {
+    margin: 0 0px;
+    }
+    ul.social_icon li a {
+        width: 28px;
+        line-height: 28px;
+        height: 28px;
+    }
+    ul.social_icon li a i {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .slider_main {
+       padding-top: 14%;
+    }
+    .header {
+        padding: 27px 10px;
+    }
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 7px 14px;
+        font-size: 16px;
+    }
+    ul.email li {
+        padding: 0px 15px;
+    }
+    .relative h3 {
+        padding-bottom: 25px;
+        padding-top: 29px;
+        font-size: 61px;
+        line-height: 75px;
+    }
+    #carouselExampleIndicators .carousel-control-prev {
+        left: 1%;
+    }
+    .class_box {
+        padding: 40px 20px 50px 20px;
+    }
+    .about {
+        padding: 90px 0;
+    }
+    .skating {
+        padding: 90px 0px 90px 0px;
+    }
+    .shop_img {
+        padding-left: 0px;
+    }
+    .test_box {
+        padding: 0 10px 40px 10px;
+    }
+    .white_bg {
+        margin: 0;
+    }
+    #myCarousel a.carousel-control-prev {
+        left: 41%;
+    }
+    #myCarousel a.carousel-control-next {
+        right: 41%;
+    }
+    .border_left {
+        padding-left: 20px;
+    }
+    .newsl {
+        font-size: 12px;
+    }
+    ul.fullink li {
+        padding: 0px 5px;
+    }
+    ul.fullink li a {
+        font-size: 16px;
+    }
+    ul.social_icon {
+        padding-top: 15px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .header {
+        padding: 31px 15px;
+        box-shadow: 0 0 10px rgb(240, 57, 15);
+        margin-bottom: 11px;
+    }
+    .board {
+        max-width: inherit;
+    }
+    .slider_main {
+        padding-top: 26%;
+    }
+    .banner_img {
+        padding-right: 0px;
+    }
+    #carouselExampleIndicators .carousel-control-prev {
+        left: 0%;
+    }
+    #carouselExampleIndicators .carousel-control-next {
+        left: 13%;
+    }
+    .shop_img {
+        padding-left: 0;
+    }
+    .about .titlepage {
+        max-width: inherit;
+    }
+    .about_img {
+        margin-top: 30px;
+    }
+    .d_grid {
+        display: grid;
+    }
+    .order_1_mobile {
+        order: -1;
+    }
+    .testimonial {
+        padding: 90px 0 10px 0;
+    }
+    .test_box,
+    .white_bg {
+        margin-bottom: 80px !important;
+    }
+    #myCarousel a.carousel-control-next,
+    #myCarousel a.carousel-control-prev {
+        top: 98%;
+    }
+    #myCarousel a.carousel-control-prev {
+        left: 39%;
+    }
+    #myCarousel a.carousel-control-next {
+        right: 39%;
+    }
+    .border_left {
+        border-left: inherit;
+        padding-left: 0px;
+    }
+    ul.social_icon {
+        padding-top: 15px;
+    }
+    .main_form .send_btn {
+        margin-bottom: 30px;
+    }
+    .navigation.navbar {
+        float: right;
+        display: inherit !important;
+        padding: 0;
+        width: 100%;
+    }
+    .navigation .navbar-collapse {
+        background: #2b2b2b;
+        padding: 20px;
+        margin-top: 29px;
+        position: absolute;
+        width: 100%;
+        z-index: 999;
+    }
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 10px 0;
+        color: #fff;
+        text-align: center;
+    }
+    .navigation.navbar-dark .navbar-toggler {
+        border: inherit;
+        float: right;
+        padding: 0;
+        width: 100%;
+        outline: inherit;
+        margin-top: -37px;
+    }
+    .navigation.navbar-dark .navbar-toggler-icon {
+        background: url(../images/menu_icon.png);
+        background-repeat: no-repeat;
+        width: 48px;
+        float: right;
+    }
+    .d_none {
+        display: none;
+    }
+}
+
+@media (max-width: 575px) {
+    .header {
+        padding: 27px 5px;
+        box-shadow: 0 0 10px rgb(240, 57, 15);
+        margin-bottom: 11px;
+    }
+    .board {
+        max-width: inherit;
+    }
+    .slider_main {
+        padding-top: 24%;
+    }
+    .relative h3 {
+        line-height: 80px;
+        font-size: 60px;
+    }
+    .banner_img {
+        padding-right: 0px;
+        margin-top: 20px;
+    }
+    #carouselExampleIndicators .carousel-control-prev {
+        left: 0%;
+    }
+    #carouselExampleIndicators .carousel-control-next {
+        left: 23%;
+    }
+    .carousel-inner {
+        padding-top: 80px;
+    }
+    .logo {
+        float: left;
+    }
+    .about_img {
+        margin-top: 30px;
+    }
+    .about_img figure img {
+        margin-bottom: -4px;
+    }
+    .titlepage h2 {
+        line-height: 57px;
+        font-size: 38px;
+    }
+    .skating {
+        padding: 90px 0px 90px 0px;
+    }
+    .shop_img {
+        padding-left: 0;
+    }
+    .d_grid {
+        display: grid;
+    }
+    .order_1_mobile {
+        order: -1;
+    }
+    .copyright p {
+        font-size: 17px;
+    }
+    .border_left {
+        border-left: inherit;
+        padding-left: 0px;
+    }
+    .testimonial .titlepage {
+        padding-bottom: [0;
+        ]
+    }
+    .testimonial {
+        padding: 90px 0 10px 0;
+    }
+    .test_box,
+    .white_bg {
+        margin-bottom: 80px !important;
+    }
+    #myCarousel a.carousel-control-next,
+    #myCarousel a.carousel-control-prev {
+        top: 98%;
+    }
+    #myCarousel a.carousel-control-prev {
+        left: 25%;
+    }
+    #myCarousel a.carousel-control-next {
+        right: 24%;
+    }
+    .white_bg {
+        margin: 0;
+    }
+    ul.social_icon {
+        padding-top: 15px;
+    }
+    ul.conta {
+        margin-bottom: 10px;
+    }
+    ul.fullink li {
+        padding: 0px 25px;
+    }
+    .subsci_btn {
+        margin-bottom: 30px;
+        float: inherit;
+    }
+    .main_form .send_btn {
+        margin-bottom: 30px;
+    }
+    .navigation.navbar {
+        float: right;
+        display: inherit !important;
+        padding: 0;
+        width: 100%;
+        margin-top: -40px;
+    }
+    .navigation .navbar-collapse {
+        background: #2b2b2b;
+        padding: 20px;
+        margin-top: 65px;
+        position: absolute;
+        width: 100%;
+        z-index: 999;
+    }
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 10px 0;
+        color: #fff;
+        text-align: center;
+    }
+    .navigation.navbar-dark .navbar-toggler {
+        float: right;
+        border: inherit;
+        margin-top: 1px;
+        padding: 0;
+        outline: inherit;
+    }
+    .navigation.navbar-dark .navbar-toggler-icon {
+        background: url(../images/menu_icon.png);
+        background-repeat: no-repeat;
+        width: 48px;
+    }
+    .d_none {
+        display: none;
+    }
+}

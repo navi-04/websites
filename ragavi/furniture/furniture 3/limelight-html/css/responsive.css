@@ -1,0 +1,388 @@
+/*--------------------------------------------------------------------- File Name: responsive.css ---------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------- 991px x 768px ---------------------------------------------------------------------*/
+
+@media (min-width: 1200px) and (max-width: 1342px) {
+    #myCarousel a.carousel-control-next {
+        right: 45.5%;
+    }
+    #myCarousel .carousel-control-next:hover,
+    #myCarousel .carousel-control-next:focus {
+        right: 44%;
+    }
+    #testimon a.carousel-control-prev {
+        left: 116%;
+    }
+    #testimon a.carousel-control-next {
+        right: -39%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        margin: 0px 29px;
+    }
+    #myCarousel a.carousel-control-next {
+        right: 44.5%;
+    }
+    #myCarousel .carousel-control-next:hover,
+    #myCarousel .carousel-control-next:focus {
+        right: 42%;
+    }
+    #myCarousel .carousel-control-prev:hover,
+    #myCarousel .carousel-control-prev:focus {
+        left: 45.5%;
+    }
+    .text-bg h1 {
+        font-size: 76px;
+    }
+    .about_img::before {
+        height: 90%;
+    }
+    .mar_top {
+        margin-top: -21px;
+    }
+    .gallery_text {
+        height: 308px;
+    }
+    .titlepage h2 {
+        font-size: 37px;
+    }
+    #design a.carousel-control-next {
+        right: 26%;
+    }
+    #design a.carousel-control-prev {
+        left: 28%;
+    }
+    .mr_le figure {
+        margin-right: -145px !important;
+    }
+    .latest_news .news_box .news_img figure {
+        margin-left: -145px;
+    }
+    .latest_news .news_box .news_room ul li a {
+        padding-right: 8px;
+    }
+    .banner_testimonial {
+        padding: 40px 20px;
+    }
+    #testimon a.carousel-control-prev {
+        left: 113%;
+    }
+    #testimon a.carousel-control-next {
+        right: -40%;
+    }
+    .footer h3 {
+        font-size: 26px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        margin: 0px 12px;
+    }
+    #myCarousel a.carousel-control-next {
+        right: 42.5%;
+    }
+    #myCarousel .carousel-control-next:hover,
+    #myCarousel .carousel-control-next:focus {
+        right: 40%;
+    }
+    #myCarousel .carousel-control-prev:hover,
+    #myCarousel .carousel-control-prev:focus {
+        left: 45.5%;
+    }
+    .text-bg h1 {
+        font-size: 60px;
+        line-height: 73px;
+    }
+    .titlepage h2 {
+        font-size: 28px;
+        line-height: 23px;
+    }
+    .about .titlepage p {
+        font-size: 15px;
+        line-height: 28px;
+        padding-bottom: 18px;
+        padding-right: 13px;
+    }
+    .about_img::before {
+        height: 77%;
+    }
+    .service_box h3 {
+        font-size: 18px;
+    }
+    .gallery_text {
+        height: 233px;
+    }
+    #design a.carousel-control-next {
+        right: 25%;
+    }
+    #design a.carousel-control-prev {
+        left: 14%;
+    }
+    .text_de .titlepage {
+        padding-bottom: 13px;
+    }
+    .mr_le figure {
+        margin-right: -118px !important;
+    }
+    .latest_news .news_box .news_img figure {
+        margin-left: -120px;
+    }
+    .banner_testimonial {
+        padding: 40px 3px;
+    }
+    .text_humai {
+        padding: 0 10px 40px 15px;
+    }
+    #testimon a.carousel-control-prev {
+        left: 110%;
+    }
+    #testimon a.carousel-control-next {
+        right: -45%;
+    }
+    .footer h3 {
+        font-size: 20px;
+    }
+    .pad_roght2 {
+        padding-right: 0;
+    }
+    ul.social_icon li a {
+        margin: 0 1px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .logo {
+        padding-top: 5px;
+    }
+    .banner {
+        min-height: 550px;
+    }
+    .text-bg h1 {
+        font-size: 70px;
+    }
+    #myCarousel a.carousel-control-next {
+        right: 42.5%;
+    }
+    #myCarousel .carousel-control-next:hover,
+    #myCarousel .carousel-control-next:focus {
+        right: 39%;
+    }
+    #myCarousel a.carousel-control-prev {
+        left: 45%;
+    }
+    #myCarousel .carousel-control-prev:hover,
+    #myCarousel .carousel-control-prev:focus {
+        left: 40.5%;
+    }
+    .about .titlepage {
+        margin-right: 0;
+        padding-bottom: 30px;
+    }
+    .mar_top {
+        margin-top: 30px;
+    }
+    .gallery_text {
+        height: 264px;
+    }
+    .banner_design {
+        max-width: inherit;
+        padding-bottom: 117px;
+    }
+    #design .carousel-control-prev,
+    #design .carousel-control-next {
+        top: 65%;
+    }
+    #design a.carousel-control-prev {
+        left: 39%;
+    }
+    .mr_le figure {
+        margin-right: -13px !important;
+    }
+    .latest_news .news_box .news_img figure {
+        margin-left: -12px;
+    }
+    .Testimonial .titlepage h2 {
+        padding-top: 30px;
+    }
+    #testimon .carousel-control-prev,
+    #testimon .carousel-control-next {
+        top: 111%;
+    }
+    #testimon a.carousel-control-next {
+        right: 32%;
+    }
+    #testimon a.carousel-control-prev {
+        left: 36%;
+    }
+    .variat {
+        margin-bottom: 30px;
+    }
+    .main_form .send_btn {
+        margin-bottom: 30px;
+    }
+    .navigation.navbar {
+        float: right;
+        display: inherit !important;
+        padding: 0;
+        width: 100%;
+        padding-top: 0px !important;
+        margin-top: -31px;
+    }
+    .navigation .navbar-collapse {
+        background: #202020;
+        padding: 20px;
+        margin-top: 73px;
+        position: absolute;
+        width: 100%;
+        z-index: 999;
+    }
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 10px 0;
+        color: #fff;
+    }
+    .navigation.navbar-dark .navbar-toggler {
+        border: inherit;
+        float: right;
+    }
+    .navigation.navbar-dark .navbar-toggler-icon {
+        background: url(../images/menu_icon.png);
+        background-repeat: no-repeat;
+    }
+    .d_none {
+        display: none;
+    }
+}
+
+@media (max-width: 575px) {
+    .header {
+        height: 122px;
+    }
+    .logo {
+        padding-top: 5px;
+        float: left;
+        width: 140px;
+    }
+    .banner {
+        min-height: 550px;
+        padding-top: 37%;
+    }
+    .text-bg h1 {
+        font-size: 44px;
+        line-height: 55px;
+    }
+    #myCarousel a.carousel-control-next {
+        right: 32.5%;
+    }
+    #myCarousel .carousel-control-next:hover,
+    #myCarousel .carousel-control-next:focus {
+        right: 25%;
+    }
+    #myCarousel a.carousel-control-prev {
+        left: 45%;
+    }
+    #myCarousel .carousel-control-prev:hover,
+    #myCarousel .carousel-control-prev:focus {
+        left: 37.5%;
+    }
+    .about .titlepage {
+        margin-right: 0;
+        padding-bottom: 30px;
+    }
+    .mar_top {
+        margin-top: 0px;
+    }
+    .service_box {
+        margin-bottom: 30px;
+    }
+    .gallery_text {
+        height: 264px;
+        margin-bottom: 30px;
+    }
+    .titlepage h2 {
+        font-size: 28px;
+        line-height: 29px;
+    }
+    .latest_news .news_box .news_room ul li a {
+        padding-right: 3px;
+    }
+    .banner_design {
+        max-width: inherit;
+        padding-bottom: 117px;
+    }
+    #design .carousel-control-prev,
+    #design .carousel-control-next {
+        top: 65%;
+    }
+    #design a.carousel-control-prev {
+        left: 11%;
+    }
+    .mr_le figure {
+        margin-right: -13px !important;
+    }
+    .latest_news .news_box .news_img figure {
+        margin-left: -12px;
+    }
+    .banner_testimonial {
+        padding: 40px 7px;
+    }
+    .text_humai {
+        padding: 0 20px 40px 20px;
+    }
+    .Testimonial .titlepage h2 {
+        padding-top: 30px;
+    }
+    #testimon .carousel-control-prev,
+    #testimon .carousel-control-next {
+        top: 107%;
+    }
+    #testimon a.carousel-control-next {
+        right: 20%;
+    }
+    #testimon a.carousel-control-prev {
+        left: 22%;
+    }
+    ul.link_menu {
+        margin-bottom: 25px;
+    }
+    .variat {
+        margin-bottom: 30px;
+    }
+    .main_form .send_btn {
+        margin-bottom: 30px;
+    }
+    .navigation.navbar {
+        float: right;
+        display: inherit !important;
+        padding: 0;
+        width: 100%;
+    }
+    .navigation .navbar-collapse {
+        background: #282828;
+        padding: 20px;
+        margin-top: 1px;
+        position: absolute;
+        width: 100%;
+        margin-right: 20px;
+        z-index: 999;
+    }
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 10px 0;
+        color: #fff;
+    }
+    .navigation.navbar-dark .navbar-toggler {
+        float: right;
+        border: inherit;
+        margin-top: -71px;
+    }
+    .navigation.navbar-dark .navbar-toggler-icon {
+        background: url(../images/menu_icon.png);
+        background-repeat: no-repeat;
+    }
+    .d_none {
+        display: none;
+    }
+}

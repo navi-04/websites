@@ -1,0 +1,149 @@
+@media (max-width: 1120px) {}
+
+@media (max-width: 992px) {}
+
+@media (max-width: 768px) {
+    .hero_area {
+        height: auto;
+    }
+
+    .hero_area::before {
+        width: 100%;
+        height: 35%;
+    }
+
+    .sub_page .hero_area::before {
+        width: 100%;
+        height: 100%;
+    }
+
+    .custom_menu-btn span {
+        background-color: #ffffff;
+    }
+
+    .slider_section {
+        height: auto;
+    }
+
+    .slider_section .detail-box {
+        text-align: center;
+    }
+
+    .slider_section .side_heading {
+        display: none;
+    }
+
+    .slider_section .detail-box::before {
+        display: none;
+    }
+
+    .about_section .detail-box {
+        padding: 0;
+        margin-bottom: 45px;
+    }
+
+    .dish_section .detail-box {
+        padding: 0;
+        margin-top: 45px;
+    }
+
+    .hot_section {
+        padding-bottom: 125px;
+    }
+
+    .hot_section .owl-carousel .owl-nav .owl-prev,
+    .hot_section .owl-carousel .owl-nav .owl-next {
+        top: 120%;
+    }
+
+    .hot_section .owl-carousel .owl-nav .owl-prev {
+        left: calc(50% - 55px);
+    }
+
+    .hot_section .owl-carousel .owl-nav .owl-next {
+        right: calc(50% - 55px);
+    }
+
+    .app_section {
+        background-size: cover;
+    }
+
+    .app_section .row {
+        flex-direction: column-reverse;
+    }
+
+    .app_section .detail-box {
+        padding: 45px;
+    }
+
+    .client_section .heading_container {
+        justify-content: center;
+
+    }
+
+    .client_section .heading_container h2 {
+        text-align: center;
+    }
+
+    .client_section .box {
+        text-align: center;
+    }
+
+    .client_section .box .client_id {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .client_section .box .client_id h4 {
+        margin: 0;
+        margin-top: 15px;
+    }
+
+    .contact_section .form_container {
+        text-align: center;
+        padding: 0;
+    }
+
+    .contact_section .contact_box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .contact_section .contact_box a {
+        width: 235px;
+    }
+
+    .subscribe_section form .box {
+        margin-top: 15px;
+    }
+
+}
+
+
+@media (max-width: 576px) {
+    .app_section .detail-box {
+        padding: 45px 0;
+    }
+}
+
+@media (max-width: 480px) {}
+
+@media (max-width: 420px) {
+    .slider_section .detail-box .btn-box .btn-1 {
+        margin: 0;
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 360px) {}
+
+@media (max-width: 320px) {}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1170px;
+    }
+
+}

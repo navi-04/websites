@@ -1,0 +1,321 @@
+/*--------------------------------------------------------------------- File Name: responsive.css ---------------------------------------------------------------------*/
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .right_header_info ul li {
+        font-size: 14px;
+        margin-left: 12px;
+    }
+    .slider_cont h3 {
+        font-size: 36px;
+        line-height: 45px;
+    }
+    .slider_cont p {
+        margin-top: 10px;
+        margin-bottom: 5px
+    }
+    .black_white {
+        color: #000;
+    }
+    .training {
+        margin-top: 0px;
+    }
+    .about_text h2 {
+        font-size: 50px;
+    }
+    .about_text {
+        padding-right: 0px;
+        margin-top: 0px;
+        background: inherit;
+    }
+    .about_text_box {
+        padding-top: 186px;
+        padding-right: 15px;
+    }
+    .slider_section {
+        min-height: inherit;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .slider_section {
+        min-height: inherit;
+    }
+    .training {
+        margin-top: 90px;
+    }
+    .black_white {
+        color: #000;
+    }
+    .training .training_packages_box h3 {
+        font-size: 20px;
+    }
+    .about_text_box {
+        padding-top: 100px;
+        padding-right: 15px;
+    }
+    .about_text {
+        padding-right: 0px;
+        margin-top: 0px;
+        background: inherit;
+    }
+    .about_text h2 {
+        font-size: 38px;
+    }
+    .about_text_box p {
+        font-size: 14px;
+        line-height: 23px;
+        padding-top: 2px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .right_header_info ul li {
+        margin-left: 32px;
+    }
+    .slider_section {
+        min-height: inherit;
+        padding-top: 128px;
+    }
+    .main_text h1 {
+        font-size: 75px;
+        line-height: 95px;
+    }
+    .bold_text {
+        font-size: 102px;
+        line-height: 40px;
+    }
+    .bold_text_black {
+        font-size: 102px;
+        line-height: 90px;
+    }
+    .main_text span {
+        margin-top: 3px;
+        font-size: 18px;
+    }
+    .black_box {
+        margin-bottom: 20px;
+    }
+    .black_white {
+        color: #000;
+    }
+    .about_text_box {
+        padding-top: 30px;
+        padding-right: 15px;
+    }
+    .about_text {
+        padding-right: 0px;
+        margin-top: 0px;
+        background: inherit;
+    }
+    .title h2 {
+        font-size: 44px;
+        line-height: 40px;
+    }
+    .white_bold {
+        font-size: 51px;
+    }
+    .training {
+        margin-top: 90px;
+    }
+    .about_text h2 {
+        font-size: 34px;
+        line-height: 46px
+    }
+    .training .training_packages_box h3 {
+        font-size: 17px;
+    }
+    .training .training_packages_box {
+        padding: 25px 18px;
+    }
+    .training .training_packages_box p {
+        font-size: 51px;
+    }
+    .main_form {
+        padding: 51px 24px;
+    }
+    .copyright p {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .logo {
+        text-align: center;
+        display: block;
+    }
+    .slider_section {
+        min-height: inherit;
+        padding-top: 195px;
+    }
+    .main_text h1 {
+        font-size: 65px;
+        line-height: 89px;
+    }
+    .bold_text {
+        font-size: 92px;
+        line-height: 40px;
+    }
+    .bold_text_black {
+        font-size: 92px;
+        line-height: 90px;
+    }
+    .main_text span {
+        margin-top: 3px;
+        font-size: 18px;
+    }
+    .training .training_packages_box {
+        border-right: indianred;
+    }
+    .title h2 {
+        font-size: 32px;
+        line-height: 35px;
+    }
+    .mar_bottom {
+        margin-bottom: 0px;
+    }
+    .black_white {
+        color: #000;
+    }
+    .about_text_box {
+        padding-top: 30px;
+        padding-right: 15px;
+    }
+    .about_text {
+        padding-right: 0px;
+        margin-top: 0px;
+        background: inherit;
+    }
+    .about_text h2 {
+        font-size: 34px;
+        line-height: 46px
+    }
+    .about_text_box p {
+        font-size: 14px;
+        line-height: 22px;
+        padding-top: 0px;
+    }
+    .training {
+        margin-top: 90px;
+    }
+    .Gallery .Gallery_box {
+        margin-bottom: 30px;
+    }
+    .main_form {
+        margin-right: 15px;
+    }
+    ul.social_icon {
+        display: none;
+    }
+}
+
+@media (max-width: 575px) {
+    .logo {
+        text-align: center;
+        display: block;
+    }
+    .right_header_info {
+        padding-bottom: 20px;
+        padding-top: 0px;
+    }
+    .right_header_info ul {
+        float: inherit;
+        float: inherit;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .right_header_info ul li {
+        padding-top: 10px;
+        margin-left: 10px;
+    }
+    .slider_section {
+        min-height: inherit;
+        padding-top: 177px;
+    }
+    .main_text h1 {
+        font-size: 60px;
+        line-height: 81px;
+    }
+    .bold_text {
+        font-size: 72px;
+        line-height: 40px;
+    }
+    .bold_text_black {
+        font-size: 72px;
+        line-height: 40px;
+    }
+    .main_text span {
+        margin-top: 0px;
+        font-size: 18px;
+    }
+    .title h2 {
+        font-size: 28px;
+        line-height: 32px;
+    }
+    .title span {
+        font-size: 15px;
+    }
+    .pppp {
+        padding: 0 15px !important;
+    }
+    .mar_bottom {
+        margin-bottom: 0px;
+    }
+    .black_white {
+        color: #000;
+    }
+    .about_text_box {
+        padding-top: 30px;
+        padding-right: 15px;
+    }
+    .about_text {
+        padding-right: 0px;
+        margin-top: 0px;
+        background: inherit;
+    }
+    .about_text h2 {
+        font-size: 34px;
+    }
+    .training {
+        margin-top: 90px;
+    }
+    .training .training_packages_box h3 {
+        font-size: 21px;
+        line-height: 25px;
+        border-right: indianred;
+    }
+    .training .training_packages_box {
+        border-right: indianred;
+    }
+    .Gallery .Gallery_box {
+        margin-bottom: 30px;
+    }
+    .Reviwe {
+        padding-top: 60px;
+    }
+    .Reviwe .title h2 {
+        font-size: 40px;
+        line-height: 32px;
+    }
+    .Reviwe .Reviwe_box p {
+        font-size: 15px;
+    }
+    .contact .title h2 {
+        font-size: 40px;
+        line-height: 38px;
+    }
+    .main_form {
+        padding: 62px 18px;
+        margin-right: 15px;
+    }
+    ul.social_icon {
+        display: none
+    }
+    .copyright p {
+        font-size: 22px;
+    }
+    ul.social_top_icon li {
+        padding-right: 2px;
+    }
+}
