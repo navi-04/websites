@@ -1,0 +1,55 @@
+
+
+.countdown{
+	padding-top: 12px;
+	margin: 0 -11px;
+	text-align: center;
+	#counter{
+	padding-bottom: 81px;
+		overflow: hidden;
+		width: 100%;
+		display: block;
+		font: 48px/48px 'Arial';
+		.years, .month, .weeks, .days, .hours, .minutes, .seconds{
+			width: 138px;
+			color: #fff;
+			display: block;
+			float: left;
+			margin: 0 11px;
+			position: relative;
+			padding: 37px 0 33px;
+			background-color: #f3646b;
+
+			&:after {
+				padding-top: 14px;
+				top: 100%;
+				left: 0;
+				right: 0;
+				font: 14px/24px 'Open Sans', sans-serif;
+				text-transform: uppercase;
+				color: #706f6e;
+				position: absolute;
+				content: 'days';
+			}
+		}
+		
+
+		.hours:after {
+			content: 'hours';
+		}
+
+		.minutes:after {
+			content: 'minutes';
+		}
+
+		.seconds:after {
+			content: 'seconds';
+		}				
+
+		.separator{display: none;
+		}
+	}
+}
+
+@import 'mixins.less';
+@import 'variables.less';

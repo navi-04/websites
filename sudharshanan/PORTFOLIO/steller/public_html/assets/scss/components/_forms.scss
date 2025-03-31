@@ -1,0 +1,82 @@
+
+
+// Contact 
+.contact {
+	position: relative;
+	border-radius: $border-radius-lg;
+	border: 1px solid $border-width;
+	box-shadow: 1px 2px 6px rgba($gray-500,.5);
+	padding: 0 30px 0 25px;
+	@include d-flex;
+	max-width: 1000px;
+	margin: 0 auto 150px;
+	z-index: 99;
+	background: $white;
+
+	.form {
+		flex-grow: 1;
+		border-right: 1px solid $border-color;
+		padding: 35px 30px 35px 0;
+
+		form {
+			margin-top: 30px;
+		}
+	}
+
+	.contact-infos {
+		align-self: center;
+		margin-left: 30px;
+		min-width: 350px;
+
+		.item {
+			@include d-flex;
+			flex-wrap: wrap;
+
+			i {
+				display: block;
+				width: 40px;
+				font-size: 16px;
+				color: primary;
+				@include circle(37);
+				border: 1px solid $primary;
+				line-height: 34px;
+				text-align: center;
+				padding: 0 !important;
+				color: $primary;
+				margin-right: 15px;
+			}
+
+			div {
+				border-bottom: 1px solid $border-color;
+				margin-bottom: 25px;
+				flex-grow: 1;
+
+				h5 {
+					margin-bottom: 10px;
+					opacity: .9;
+				}
+
+				p {
+					opacity: .7;
+					font-size: 15px;
+					margin-bottom: 4px;
+				}
+			}
+		}
+	}
+
+	@include media-breakpoint-down(md) {
+		flex-direction: column;
+		padding: 20px;
+
+		.form {
+			margin: 0 0 20px 0;
+			padding: 0;
+			border-right: 0;
+		}
+
+		.contact-infos {
+			display: none;
+		}
+	}
+}

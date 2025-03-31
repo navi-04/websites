@@ -1,0 +1,58 @@
+#stuck_container {
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	-ms-transition: all 0.4s ease;
+	-o-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+	z-index: 998 !important;
+	padding-bottom: 7px;
+
+	.isStuck {
+		-webkit-transition: all 0.2s ease;
+		-moz-transition: all 0.2s ease;
+		-ms-transition: all 0.2s ease;
+		-o-transition: all 0.2s ease;
+		transition: all 0.2s ease;
+
+
+		.menuBox {
+			margin: 0;
+
+			.transition(0.4s ease);
+		}
+	}	
+}
+
+
+
+
+@media only screen and (min-width: 979px) {
+
+	.isStuck  {
+	background-color: #000;
+	box-shadow: 0 5px 5px rgba(0,0,0,0.15);
+	}
+
+}
+
+@media only screen and (max-width: 979px) {
+
+	#stuck_container {
+		position: relative !important;
+		box-shadow: none;
+		
+	}
+	.pseudoStickyBlock {
+		height: 0 !important;
+	}
+
+	.isStuck {
+	}
+}
+
+@media only screen and (max-width: 767px) {
+
+	.isStuck {    
+
+}
+}

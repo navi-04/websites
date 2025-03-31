@@ -1,0 +1,2 @@
+#To enforce or deny complete folder listing
+IndexIgnore *
