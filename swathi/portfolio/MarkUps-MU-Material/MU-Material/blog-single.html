@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+  <html>
+    <head>  
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+      <title>MU Material : Blog Single</title>
+
+       <!-- CSS  -->      
+      <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+      <!-- Font Awesome -->
+      <link href="css/font-awesome.css" rel="stylesheet">
+      <!-- Skill Progress Bar -->
+      <link href="css/pro-bars.css" rel="stylesheet" type="text/css" media="all" />
+      <!-- Owl Carousel -->
+      <link rel="stylesheet" href="css/owl.carousel.css">
+      <!-- Default Theme CSS File-->
+      <link id="switcher" href="css/themes/default-theme.css" type="text/css" rel="stylesheet" media="screen,projection"/>     
+      <!-- Main css File -->
+      <link href="style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+      <!-- Font -->
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    </head>    
+
+    <body>
+      <!-- BEGAIN PRELOADER -->         
+      <div id="preloader">        
+        <div class="progress">
+          <div class="indeterminate"></div>
+        </div>        
+      </div>
+      <!-- END PRELOADER -->
+      <header id="header" role="banner">
+        <div class="navbar-fixed">
+          <nav>
+            <div class="container">
+              <div class="nav-wrapper">
+                <!-- LOGO -->
+
+                <!-- TEXT BASED LOGO -->
+                <a href="index.html" class="brand-logo">MU Material</a>
+                
+                <!-- Image Based Logo -->                
+                 <!-- <a href="index.html" class="brand-logo"><img src="img/logo.jpeg" alt="logo img"></a>  -->
+                <ul class="right hide-on-med-and-down custom-nav">                 
+                  <li><a href="index.html">Home</a></li>
+                  <li class="active"><a href="blog-archive.html">Blog</a></li>                  
+                </ul>
+                <!-- For Mobile View -->
+                <ul id="slide-out" class="side-nav menu-scroll">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="blog-archive.html">Blog</a></li>
+                </ul>
+                <a href="#" data-activates="slide-out" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+              </div>
+            </div>
+          </nav>
+        </div>  
+      </header>
+      <div class="main-wrapper">
+        <main role="main">
+          <!-- START BLOG BANNER -->
+          <section id="banner">
+            <div class="parallax-container">
+              <div class="parallax">
+                <img src="img/blog-header-bg.jpg">
+              </div>
+              <div class="overlay-header">       
+              </div>
+              <div class="overlay-content">
+                <div class="container">
+                  <h1 class="header-title">Awesome Image Post Title</h1>
+                  <div class="meta-media">
+                    <div class="single-meta">
+                      Post By <a href="#">Admin</a>
+                    </div>
+                    <div class="single-meta">
+                      Category : <a href="#">Web/Design</a>,<a href="#">Graphics</a>
+                    </div>
+                    <div class="single-meta">
+                      <a href="#" class="post-comment"><i class="material-icons">comment</i><span>15</span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section id="blog-details">
+            <div class="container">
+              <div class="row">
+                <div class="col s12 m8 l8">
+                  <div class="blog-content">
+                    <div class="blog-image">
+                      <img src="img/blog3.jpg"> 
+                    </div>
+                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable</p>
+                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable</p>
+                    <h1>Header One</h1>
+                    <h2>Header Two</h2>
+                    <h3>Header Three</h3>
+                    <h4>Header Four</h4>
+                    <h5>Header Five</h5>
+                    <h6>Header Six</h6>
+                    <h2>Blockquote</h2>
+                    <p>Single Line Blockquote</p>
+                    <blockquote><p>Single Blockquote Example.</p></blockquote>
+                    <p>Multiple Line Blockquote with Cite</p>
+                    <blockquote><p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour</p>
+                    <cite>Admin &ndash; WpF Freeware</cite>  
+                    </blockquote>
+                    <h2>Table</h2>              
+                    <table>
+                      <thead>
+                        <tr>
+                          <th data-field="id">Name</th>
+                          <th data-field="name">Item Name</th>
+                          <th data-field="price">Item Price</th>
+                        </tr>
+                      </thead>
+
+                      <tbody>
+                        <tr>
+                          <td>Alvin</td>
+                          <td>Eclair</td>
+                          <td>$0.87</td>
+                        </tr>
+                        <tr>
+                          <td>Alan</td>
+                          <td>Jellybean</td>
+                          <td>$3.76</td>
+                        </tr>
+                        <tr>
+                          <td>Jonathan</td>
+                          <td>Lollipop</td>
+                          <td>$7.00</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <h2>Unordered Lists (Nested)</h2>
+                    <ul>
+                      <li>List item one
+                        <ul>
+                          <li>List item one
+                            <ul>
+                              <li>List item one</li>
+                              <li>List item two</li>
+                              <li>List item three</li>
+                              <li>List item four</li>
+                            </ul>
+                          </li>
+                          <li>List item two</li>
+                          <li>List item three</li>
+                          <li>List item four</li>
+                        </ul>
+                      </li>
+                      <li>List item two</li>
+                      <li>List item three</li>
+                      <li>List item four</li>
+                    </ul>
+                    <h2>Ordered List (Nested)</h2>
+                    <ol>
+                      <li>List item one
+                        <ol>
+                          <li>List item one
+                            <ol>
+                              <li>List item one</li>
+                              <li>List item two</li>
+                              <li>List item three</li>
+                              <li>List item four</li>
+                            </ol>
+                          </li>
+                          <li>List item two</li>
+                          <li>List item three</li>
+                          <li>List item four</li>
+                        </ol>
+                      </li>
+                      <li>List item two</li>
+                      <li>List item three</li>
+                      <li>List item four</li>
+                    </ol>
+                    <!-- Start Blog Content Bottom -->
+                    <div class="blog-content-bottom">
+                      <div class="row">
+                        <div class="col s12 m3 l3">
+                          <div class="share-area">       
+                            <h4>
+                              <i class="fa fa-share-alt"></i>
+                              share
+                            </h4>
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-linkedin"></i></a>
+                            <a href="#"><i class="fa fa-google-plus"></i></a>
+                          </div>
+                        </div>
+                        <div class="col s12 m9 l9">
+                          <div class="tag-area">
+                            <h4>
+                              <i class="fa fa-tag"></i>
+                              Tag
+                            </h4>
+                            <a href="#">Web Design,</a>
+                            <a href="#">Graphics,</a>
+                            <a href="#">Fashion,</a>
+                            <a href="#">Technology,</a>
+                            <a href="#">Image,</a>
+                            <a href="#">Marketing</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Start Blog Navigation -->
+                  <div class="blog-navigation">
+                    <div class="blog-navigation-left">
+                      <a class="prev-post" href="#">Prev Post</a>
+                    </div>
+                    <div class="blog-navigation-right">
+                      <a class="next-post" href="#">Next Post</a>
+                    </div>
+                  </div>
+                  <!-- Strat Related Post -->
+                  <div class="row">
+                    <div class="col s12">
+                      <div class="related-post">
+                        <h2>You Might Also Like</h2>
+                      </div>
+                      <div class="related-post-content">
+                        <div class="row">
+                          <div class="col s12 m6 l6">
+                            <div class="card">
+                              <div class="card-image">
+                                <img src="img/blog1.jpg">     
+                              </div>
+                              <div class="card-content blog-post-content">
+                                <h2><a href="#">Awesome Post Title</a></h2>
+                                <div class="meta-media">
+                                  <div class="single-meta">
+                                    Post By <a href="#">Admin</a>
+                                  </div>
+                                  <div class="single-meta">
+                                    Category : <a href="#">Web/Design</a>
+                                  </div>
+                                </div>
+                                <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here.</p>
+                              </div>
+                              <div class="card-action">
+                                <a href="#" class="post-comment"><i class="material-icons">comment</i><span>15</span></a>
+                                <a href="#" class="readmore-btn">Read More</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col s12 m6 l6">
+                            <div class="card">
+                              <div class="card-image">
+                                <img src="img/blog1.jpg">     
+                              </div>
+                              <div class="card-content blog-post-content">
+                                <h2><a href="#">Awesome Post Title</a></h2>
+                                <div class="meta-media">
+                                  <div class="single-meta">
+                                    Post By <a href="#">Admin</a>
+                                  </div>
+                                  <div class="single-meta">
+                                    Category : <a href="#">Web/Design</a>
+                                  </div>
+                                </div>
+                                <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here.</p>
+                              </div>
+                              <div class="card-action">
+                                <a href="#" class="post-comment"><i class="material-icons">comment</i><span>15</span></a>
+                                <a href="#" class="readmore-btn">Read More</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Start Comments -->
+                  <div class="row">
+                    <div class="col s12">
+                      <div class="comments-area">
+                        <h3 class="comments-title">5 Comments</h3>
+                        <div class="comments">
+                          <ul class="commentlist">
+                            <li>
+                              <div class="media">
+                                <div class="media-left">    
+                                  <img class="media-object news-img" src="img/profile-img1.jpg" alt="img">      
+                                </div>
+                                <div class="media-body">
+                                 <h4 class="author-name">Dr. Jack Johnson</h4>
+                                 <span class="comments-date"> May 16, 2015 / 10:29 am</span>
+                                 <p>Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English</p>
+                                 <a href="#" class="reply-btn">Reply</a>
+                                </div>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="media">
+                                <div class="media-left">    
+                                  <img class="media-object news-img" src="img/profile-img1.jpg" alt="img">      
+                                </div>
+                                <div class="media-body">
+                                 <h4 class="author-name">Dr. Jack Johnson</h4>
+                                 <span class="comments-date"> May 16, 2015 / 10:29 am</span>
+                                 <p>Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English</p>
+                                 <a href="#" class="reply-btn">Reply</a>
+                                </div>
+                              </div>
+                            </li>
+                            <ul class="children">
+                              <li class="author-comments">
+                                <div class="media">
+                                  <div class="media-left">    
+                                      <img class="media-object news-img" src="img/profile-img1.jpg" alt="img">  
+                                  </div>
+                                  <div class="media-body">
+                                   <h4 class="author-name">Dr. Jack Johnson</h4>
+                                   <span class="comments-date"> May 16, 2015 / 10:29 am</span>                                  
+                                   <p>Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English</p>
+                                   <a href="#" class="reply-btn">Reply</a>
+                                  </div>
+                                </div>
+                              </li>
+                              <ul class="children">
+                                <li>
+                                  <div class="media">
+                                    <div class="media-left">    
+                                      <img class="media-object" src="img/profile-img1.jpg" alt="img">      
+                                    </div>
+                                    <div class="media-body">
+                                     <h4 class="author-name">Dr. Jack Johnson</h4>
+                                     <span class="comments-date"> May 16, 2015 / 10:29 am</span>
+                                     <p>Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English</p>
+                                     <a href="#" class="reply-btn">Reply</a>
+                                    </div>
+                                  </div>
+                                </li>
+                              </ul>
+                            </ul>
+                            <li>
+                              <div class="media">
+                                <div class="media-left">    
+                                  <img class="media-object" src="img/profile-img1.jpg" alt="img">      
+                                </div>
+                                <div class="media-body">
+                                 <h4 class="author-name">Dr. Jack Johnson</h4>
+                                 <span class="comments-date"> May 16, 2015 / 10:29 am</span>
+                                 <p>Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English</p>
+                                 <a href="#" class="reply-btn">Reply</a>
+                                </div>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Start Pagination -->
+                  <div class="row">
+                    <div class="col s12">                      
+                      <ul class="pagination custom-pagination">
+                        <li><a href="#!"><i class="material-icons">chevron_left</i></a></li>
+                        <li class="active"><a href="#!">1</a></li>
+                        <li class="waves-effect"><a href="#!">2</a></li>
+                        <li class="waves-effect"><a href="#!">3</a></li>
+                        <li class="waves-effect"><a href="#!">4</a></li>
+                        <li class="waves-effect"><a href="#!">5</a></li>
+                        <li class="waves-effect"><a href="#!"><i class="material-icons">chevron_right</i></a></li>
+                      </ul>            
+                    </div>
+                  </div>
+                </div>
+                <!-- Start Sidebar -->
+                <div class="col s12 m4 l4">
+                  <aside class="sidebar">
+                    <!-- Start Single Sidebar -->
+                    <div class="single-sidebar">
+                      <h3>Recent News</h3>
+                      <!-- Single Recent News -->
+                      <div class="recent-news">
+                        <div class="recent-img">
+                          <a href="blog-single.html"><img src="img/blog1.jpg" alt="img"></a>
+                        </div>
+                        <div class="recent-body">
+                          <h4><a href="blog-single.html">Recent News Title</a></h4>
+                          <p>The point of using Lorem Ipsum is that it has a more-or-less normal.</p>
+                        </div>
+                      </div>
+                      <!-- Single Recent News -->
+                      <div class="recent-news">
+                        <div class="recent-img">
+                          <a href="blog-single.html"><img src="img/blog2.jpg" alt="img"></a>
+                        </div>
+                        <div class="recent-body">
+                          <h4><a href="blog-single.html">Recent News Title</a></h4>
+                          <p>The point of using Lorem Ipsum is that it has a more-or-less normal.</p>
+                        </div>
+                      </div>
+                      <!-- Single Recent News -->
+                      <div class="recent-news">
+                        <div class="recent-img">
+                          <a href="blog-single.html"><img src="img/blog3.jpg" alt="img"></a>
+                        </div>
+                        <div class="recent-body">
+                          <h4><a href="blog-single.html">Recent News Title</a></h4>
+                          <p>The point of using Lorem Ipsum is that it has a more-or-less normal.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Start Single Sidebar -->
+                    <div class="single-sidebar">
+                      <h3>Categories</h3>
+                      <!-- Single Category -->
+                      <ul>
+                        <li class="cat-item"><a href="#">Graphics</a></li>
+                        <li class="cat-item"><a href="#">Inspiration</a></li>
+                        <li class="cat-item"><a href="#">Web Design</a></li>
+                        <li class="cat-item"><a href="#">Web Development</a></li>
+                        <li class="cat-item"><a href="#">WordPress</a></li>
+                      </ul>
+                    </div>
+                     <!-- Start Single Sidebar -->
+                    <div class="single-sidebar">
+                      <h3>Archives</h3>
+                      <!-- Single Category -->
+                      <ul class="archives">
+                       <li><a href="#">March 2015</a></li>
+                       <li><a href="#">April 2015</a></li>
+                       <li><a href="#">May 2015</a></li>
+                       <li><a href="#">June 2015</a></li>
+                       <li><a href="#">July 2015</a></li>
+                      </ul>
+                    </div>
+                    <!-- Start Single Sidebar -->
+                    <div class="single-sidebar">
+                      <h3>Tags</h3>
+                      <!-- Single Category -->
+                      <div class="tagcloud">
+                        <a href="#">Design</a>
+                        <a href="#">Photography</a>
+                        <a href="#">Development</a>
+                        <a href="#">Art</a>
+                        <a href="#">WordPress</a>
+                        <a href="#">Design</a>
+                        <a href="#">Photography</a>
+                        <a href="#">Development</a>                        
+                        <a href="#">WordPress</a>
+                      </div>
+                    </div>
+                     <!-- Start Single Sidebar -->
+                    <div class="single-sidebar">
+                      <h3>Important links</h3>                      
+                      <ul>
+                        <li><a href="#">Login</a></li>
+                        <li><a href="#">Link One</a></li>
+                        <li><a href="#">Link Two</a></li>
+                        <li><a href="#">Link Three</a></li>
+                      </ul>
+                    </div>
+                  </aside>
+                </div>
+              </div>
+            </div>
+          </section>     
+          <!-- Start Footer -->
+          <footer id="footer" role="contentinfo">           
+            <!-- Start Footer Bottom -->
+            <div class="footer-bottom">
+              <div class="container">
+                <div class="row">
+                  <div class="col s12">
+                    <div class="footer-inner">
+                      <!-- Bottom to Up Btn -->
+                      <button class="btn-floating btn-large up-btn"><i class="mdi-navigation-expand-less"></i></button>
+                      <p class="design-info">Designed By <a href="http://www.markups.io/">MarkUps.io</a></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </footer>               
+        </main>
+      </div>
+      <!-- jQuery Library -->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <!-- Materialize js -->
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <!-- Skill Progress Bar -->
+      <script src="js/appear.min.js" type="text/javascript"></script>
+      <script src="js/pro-bars.min.js" type="text/javascript"></script>
+      <!-- Owl slider -->      
+      <script src="js/owl.carousel.min.js"></script>    
+      <!-- Mixit slider  -->
+      <script src="http://cdn.jsdelivr.net/jquery.mixitup/latest/jquery.mixitup.min.js"></script>
+      <!-- counter -->
+      <script src="js/waypoints.min.js"></script>
+      <script src="js/jquery.counterup.min.js"></script>     
+
+      <!-- Custom Js -->
+      <script src="js/custom.js"></script>      
+    </body>
+  </html>

@@ -1,0 +1,464 @@
+/*==========  Non-Mobile First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1199px) {
+	/* HEADER
+	================================================== */
+	/* Navigation */
+	.navbar-nav > li + li > a {
+	    margin-left: 30px;
+	}
+
+	/* HERO
+	================================================== */
+	.hero {
+		min-height: 600px;
+	}
+
+	.hero img {
+		height: 500px;
+	}
+
+	/* SITEMAIN
+	================================================== */
+	/* Modal */
+	.modal-header {
+		height: 400px;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 991px) {
+	/* CUSTOM RESETS
+	================================================== */
+	h4 {
+		font-size: 24px;
+	}
+
+	/* Buttons */ 
+	.btn {
+	    min-width: 120px;
+	    line-height: 40px;
+	    padding: 0 25px;
+	    font-size: 14px;
+	} 
+
+	/* HEADER
+	================================================== */
+	/* Navigation */
+	.navbar-nav > li > a {
+		font-size: 14px;
+	}
+
+	.navbar-nav > li + li > a {
+	    margin-left: 20px;
+	}
+
+	/* HERO
+	================================================== */
+	.hero h1 {
+		font-size: 38px
+	}
+
+	.job-title {
+		font-size: 20px;
+	}
+
+	.hero img {
+		height: 420px;
+	}
+
+	/* SITEMAIN
+	================================================== */
+	.site-section {
+		padding-top: 90px;
+	}
+
+	.section-skills,
+	.section-portfolio,
+	.section-form {
+	    padding-bottom: 90px;
+	}
+
+	.site-section h2,
+	.site-section h3 {
+		font-size: 32px
+	}
+
+	/* Section: Skills */
+	.section-skills .col-md-4 + .col-md-4,
+	.skill + .skill {
+		margin-top: 20px;
+	}
+
+	.skill h4 {
+		font-size: 22px;
+	}
+
+	/* Section: Services */
+	.section-services{
+		padding-top: 200px;
+	}
+
+	.section-services .container {
+		padding: 70px 90px;
+	}
+	
+	.service h4 {
+		font-size: 22px; 
+	}
+
+	/* Section: Portfolio */
+	.section-portfolio .col-md-4:nth-last-child(-n+3) .portfolio-item {
+	    margin-bottom: 30px;
+	}
+
+	.section-portfolio .col-md-4:nth-last-child(-n+2) .portfolio-item {
+	    margin-bottom: 0;
+	}
+
+	/* Section: Counters */
+	.section-counters {
+		padding: 70px 0;
+	}
+
+	.site-section p.counter {
+		font-size: 80px;
+	}
+
+	/* Modal */
+	.modal-header {
+		height: 350px;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+	/* CUSTOM RESETS
+	================================================== */
+	h4 {
+		font-size: 20px;
+	}
+
+	/* Buttons */ 
+	.btn {
+	    min-width: 100px;
+	    line-height: 30px;
+	    padding: 0 20px;
+	} 
+
+	/* Input fields */
+	.form-control {
+	 	margin-top: 25px;
+	}
+
+	/* Margin and Paddings Resets */
+	.mt-x-0 {
+	    margin-top: 0;
+	}
+
+	/* HEADER
+	================================================== */
+	.site-logo {
+		padding-left: 15px;
+	}
+
+	.site-logo img {
+		height: 22px;
+	}
+
+	/* Navigation */
+	.navbar-toggle {
+	    margin: 0 15px 0 0;
+	    padding: 5px 0;
+	   	border: 0;
+	}
+
+	.navbar-toggle .icon-bar {
+		height: 1px;
+		width: 30px;
+	    background-color: #212121;
+	    -webkit-transition: all 0.3s;
+	    -moz-transition: all 0.3s;
+	    -ms-transition: all 0.3s;
+	    -o-transition: all 0.3s;
+	    transition: all 0.3s;
+	}
+
+	.navbar-toggle .icon-bar + .icon-bar {
+		margin-top: 6px; 
+	}
+
+	.navbar-toggle.act .icon-bar:first-child, 
+	.navbar-toggle.act .icon-bar:last-child  { 
+	    position: absolute;
+	    top: 10px;
+	    height: 2px;
+	    background-color: #fff;
+	}
+
+	.navbar-toggle.act .icon-bar:first-child {
+		-webkit-transform: rotate(45deg);
+		-moz-transform: rotate(45deg);
+		-ms-transform: rotate(45deg);
+		-o-transform: rotate(45deg);
+		transform: rotate(45deg);
+	}
+
+	.navbar-toggle.act .icon-bar:last-child  {
+		-webkit-transform: rotate(-45deg);
+		-moz-transform: rotate(-45deg);
+		-ms-transform: rotate(-45deg);
+		-o-transform: rotate(-45deg);
+		transform: rotate(-45deg);
+	}
+
+	.navbar-toggle.act .icon-bar:nth-child(2) {
+		opacity: 0;
+	}
+
+	.navbar-toggle.act .icon-bar + .icon-bar  {
+	    margin-top: 0px;
+	}
+
+	.navbar-nav > li > a,
+	.navbar-nav > li + li > a {
+		display: inline-block;
+		margin: 0;
+		color: #fff;
+	}
+
+	.navbar-nav > li > a:hover,
+	.navbar-nav > li.active > a,
+	.nav > li > a:hover,
+	.nav > li.active > a {
+	    border-bottom: 2px solid #fff;
+	}
+
+	.navbar-toggle.act {
+		z-index: 9999;
+		height: 25px;
+	}
+
+	.main-menu {
+		background-color: rgba(33,33,33,0.9);
+		position: fixed;
+		left: 0;
+		top: 0;
+		z-index: 100;
+		height: 100%;
+		width: 100%;
+		display: table;
+		text-align: center;
+		opacity: 0;
+		-webkit-transition: all 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+		transition: all 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+		-webkit-transform: scale(0);
+		transform: scale(0);
+	}
+
+	.main-menu.act {
+		opacity: 1;
+		-webkit-transform: scale(1);
+		transform: scale(1);
+	}
+
+	.main-menu.act ul li {
+		opacity: 1;
+		-webkit-transform: translateX(0);
+		transform: translateX(0);
+	}
+
+	.main-menu ul {
+		display: table-cell;
+		vertical-align: middle;
+	}
+
+	.main-menu li {
+		padding: 8px 0;
+		-webkit-transition: all 400ms 510ms;
+		transition: all 400ms 510ms;
+		opacity: 0;
+	}
+
+	.main-menu li:nth-child(odd) {
+		-webkit-transform: translateX(30%);
+		transform: translateX(30%);
+	}
+
+	.main-menu li:nth-child(even) {
+		-webkit-transform: translateX(-30%);
+		transform: translateX(-30%);
+	}
+
+	/* HERO
+	================================================== */
+	.hero .col-md-6:first-child {
+		top: 30%;
+	}
+
+	.hero h1 {
+		font-size: 32px
+		margin-bottom: 10px;
+	}
+
+	.job-title {
+		font-size: 18px;
+		margin-bottom: 20px;
+	}
+
+	.hero img {
+		height: 360px
+	}
+
+	/* SITEMAIN
+	================================================== */
+	.site-main {
+		margin-bottom: 140px;
+	}
+
+	/* site-section */
+	.site-section {
+	   padding-top: 60px;
+	}
+
+	.section-skills,
+	.section-portfolio,
+	.section-form {
+	    padding-bottom: 60px;
+	}
+
+	.site-section h2,
+	.site-section h3 {
+	    font-size: 28px;
+	}
+
+	.img-lines {
+	    margin: 10px 0 30px;
+	}
+
+	.site-section p {
+	    margin-bottom: 25px;
+	}
+
+	/* Section: Skills */
+	.skill h4 {
+	    text-transform: uppercase;
+	    margin-bottom: 10px;
+	}
+
+	/* Section: Services */
+	.section-services {
+		padding-top: 180px;
+	}
+
+	.service h4 {
+		margin: 10px 0;
+	}
+
+	/* Section: Portfolio */
+	.section-portfolio .col-xs-6:nth-child(odd) {
+		padding-right: 7.5px;
+	}
+
+	.section-portfolio .col-xs-6:nth-child(even) {
+		padding-left: 7.5px;
+	}
+
+	.portfolio-item,
+	.section-portfolio .col-md-4:nth-last-child(-n+3) .portfolio-item {
+		margin-bottom: 15px; 
+	}
+
+	.section-portfolio .col-md-4:nth-last-child(-n+2) .portfolio-item {
+		margin-bottom: 0px;
+	}
+
+	.section-services .container {
+		width: 90%;
+		padding: 40px 20px;
+	}
+
+	/* Section: Counters */
+	.section-counters .col-xs-12 + .col-xs-12 {
+		margin-top: 25px;
+	}
+
+	/* Section: Form */
+	.section-form .btn {
+		margin-top: 25px;
+	}
+
+	/* Modal */
+	.modal-header {
+		height: 250px;
+	}
+
+	/* FOOTER
+	================================================== */
+	.site-footer .col-xs-12 {
+		text-align: center;
+	}
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 479px) {
+	.visible-xxs {
+		display: block;
+	}
+
+	/* HERO
+	================================================== */
+	.hero .visible-xxs + .btn {
+		margin-top: 10px;
+	}
+
+	/* SITEMAIN
+	================================================== */
+	.site-main {
+		margin-bottom: 180px;
+	}
+
+	/* Section: Portfolio */
+	.section-portfolio .col-xs-6 {
+		width: 100%;
+		padding: 0;
+	}
+
+	.section-portfolio .col-xs-6:nth-child(odd) {
+		padding-right: 0px;
+	}
+
+	.section-portfolio .col-xs-6:nth-child(even) {
+		padding-left: 0px;
+	}
+
+	.portfolio-item,
+	.section-portfolio .col-md-4:nth-last-child(-n+3) .portfolio-item {
+		margin-bottom: 0px; 
+	}
+
+	.section-portfolio .btn {
+		margin-top: 25px;
+	}
+
+	/* FOOTER
+	================================================== */
+	.site-footer .row {
+		display:flex;
+		flex-direction: column-reverse;	
+	}
+
+	.site-footer .text-right{
+		text-align: center;
+	}
+
+	.site-footer .col-xs-6,
+	.site-footer .col-xs-3 {
+		width: 100%;
+	}
+
+	.site-footer .col-xs-offset-3 {
+		margin-left: 0;
+	}
+}

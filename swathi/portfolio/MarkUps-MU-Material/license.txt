@@ -1,0 +1,46 @@
+--------------------------------------------
+Template License 
+--------------------------------------------
+
+Template Name : MU Material
+Author : MarkUps
+Author URL : http://www.markups.io/
+License URL : http://www.markups.io/license   
+Note : Before using we recommend check our template license page.
+
+--------------------------------------------
+Resources License and Credits : 
+--------------------------------------------
+
+Images:
+	Website URL : http://www.imcreator.com/free
+	License : Creative Commons CC0
+	License URL : https://creativecommons.org/publicdomain/zero/1.0/deed.en
+	Note: All the images used in this item owned by the respective authors & you might need permission for using those on live sites from authors.
+
+Materialize :
+	Website URL : http://materializecss.com/
+	License : The MIT License
+	License URL : https://github.com/Dogfalo/materialize/blob/master/LICENSE
+
+OwlCarousel :
+	Website URL : https://github.com/OwlFonk/OwlCarousel
+	License : The MIT License
+	License URL : https://github.com/OwlFonk/OwlCarousel/blob/master/LICENSE
+
+Mixitup :
+	Website URL : https://mixitup.kunkalabs.com/
+	License : Creative Commons CC0
+	License URL : https://mixitup.kunkalabs.com/licenses/
+
+Counter-Up :
+	Website URL : https://github.com/bfintal/Counter-Up
+	License : GNU GENERAL PUBLIC LICENSE, Version 2
+	License URL : https://github.com/bfintal/Counter-Up/blob/master/LICENSE
+
+Font Awesome :
+	Website URL : http://fortawesome.github.io/Font-Awesome/
+	License : open source 
+	License URL : http://fortawesome.github.io/Font-Awesome/license/
+
+

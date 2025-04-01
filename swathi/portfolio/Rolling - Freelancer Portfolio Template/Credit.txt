@@ -1,0 +1,48 @@
+Credit :-  The following awesome resources were used to build this template.
+
+
+
+Fonts :
+
+- Google Font  - https://fonts.googleapis.com/css?family=Poppins:400,300,500,600,700
+
+- Font Awesome Icons - http://fontawesome.io/icons/
+
+
+
+Images :
+
+- Pexels - https://www.pexels.com
+
+- GraphicBurger - http://graphicburger.com
+
+- Freepik - http://www.freepik.com/
+
+Please Note : We used images in our templates demo just for demonstration purpose only and 
+Images not included in the download file due to license right.
+
+
+
+Plugin Resources :
+
+- Jquery - http://www.jquery.com
+
+- Bootstrap Framework - http://getbootstrap.com
+
+- jquery.appear.js - https://github.com/bas2k/jquery.appear/  (Used for animation appear while scrolling)
+
+- countTo.js - https://github.com/mhuggins/jquery-countTo  (Used for number counter)
+
+- gmap.js - https://github.com/marioestrada/jQuery-gMap  (Used for google map)
+
+- stellar.js - https://github.com/markdalgleish/stellar.js  (Used for parallax background)
+
+- magnigic-popup.js - https://github.com/dimsemenov/Magnific-Popup  (Used for Image Popup)
+
+- mixitup.js - https://github.com/patrickkunka/mixitup  (Used for portfolio filtering)
+
+- owlcarousel.js - https://github.com/OwlFonk/OwlCarousel  (Used for Carousel/Slider)
+
+- typed.js - https://github.com/mattboldt/typed.js/  (Used for typing text)
+
+
