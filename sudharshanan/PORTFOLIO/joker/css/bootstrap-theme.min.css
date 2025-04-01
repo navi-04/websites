@@ -1,0 +1,19 @@
+/* add custom style */
+.bg-primary,
+.progress-bar,
+.navbar-inverse .navbar-brand:hover,
+.main-about .btn-clear:hover,
+.main-caption .btn-clear:hover
+ {
+background-color: #f24971;
+}
+
+.border-color, .navbar-nav > li.current > a, .navbar-nav > li > a:hover, .link-attr a:hover, .main-about .btn-clear:hover, .main-caption .btn-clear:hover{
+border-color:#f24971;
+}
+.bg-black, .navbar-inverse{
+ background-color:#1d2127;
+}
+.color-primary, ul#filterOptions li.cur a, ul#filterOptions li a:hover, .link-attr a:hover{
+color: #f24971;
+}

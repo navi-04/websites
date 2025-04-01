@@ -1,0 +1,46 @@
+.socials {
+	@include d-flex;
+
+	.social-item {
+		display: block;
+		margin: 0 5px;
+		@include circle(40);
+		border: 2px solid $primary;
+		color: $primary;
+		text-align: center;
+		line-height: 40px;
+		@include custom-transition(all,.3);
+		text-decoration: none;
+
+		&:hover {
+			background: $primary;
+			color: $white;
+		}
+	}
+}
+
+
+.btn {
+	font-size: 14px;
+	font-weight: bold;
+
+	&.btn-primary {
+		color: $white;
+	}
+
+	&.rounded {
+		border-radius: 50px !important;
+	}
+
+	&.w-sm {
+		min-width: 100px;
+	}
+
+	&.w-md {
+		min-width: 130px;
+	}
+
+	&.w-lg {
+		min-width: 160px;
+	}
+}

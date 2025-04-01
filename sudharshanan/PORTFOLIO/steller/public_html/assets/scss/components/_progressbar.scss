@@ -1,0 +1,32 @@
+.progress {
+	background: $gray-200;
+	border-radius: $border-radius-sm;
+	height: 3px;
+	margin-bottom: 30px;
+
+	.progress-bar {
+		position: relative;
+		height: 100%;
+		text-align: left;
+
+		span {
+			font-size: 13px;
+			font-weight: bold;
+			position: absolute;
+			opacity: .7;
+			bottom: 18px;
+			right: -14px;
+		}
+
+		&:after {
+			content: '';
+			display: block;
+			position: absolute;
+			top: -5px;
+			right: -4px;
+			@include circle(13);
+			background: $primary;
+			box-shadow: 0 0 10px rgba($primary,.5);
+		}
+	}
+}

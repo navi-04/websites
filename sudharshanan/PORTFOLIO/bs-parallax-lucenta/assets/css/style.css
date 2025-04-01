@@ -1,0 +1,263 @@
+﻿/*=============================================================
+    Authour URI: www.binarytheme.com
+    License: Commons Attribution 3.0
+
+    http://creativecommons.org/licenses/by/3.0/
+
+    100% To use For Personal And Commercial Use.
+    IN EXCHANGE JUST GIVE US CREDITS AND TELL YOUR FRIENDS ABOUT US
+   
+    ========================================================  */
+
+
+
+/*=======================================
+    GENERAL STYLES
+==================================================*/
+body {
+           font-family: 'Ruluko', sans-serif;
+    font-size:14px;
+}
+
+.nav a {
+    color:#ffffff !important;
+}
+.navbar-header a {
+    color:#ffffff !important;
+    padding-right:100px;
+}
+
+.text-center {
+    text-align:center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+   font-family: 'Ruluko', sans-serif;
+}
+
+h1 {
+    line-height:120px;
+    text-transform:uppercase;
+     color: #DF0000;
+}
+h3 {
+    line-height:30px;
+    padding-bottom:20px;
+}
+h4 {
+    line-height:40px;
+    padding-bottom:40px;
+}
+
+p {
+    font-weight:300;
+    line-height:30px;
+    padding-bottom:20px;
+}
+
+.space-pad {
+    padding-bottom:50px;
+}
+
+
+.for-full-back {
+     /* IE 8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+
+  /* IE 5-7 */
+  filter: alpha(opacity=90);
+
+  /* Netscape */
+  -moz-opacity: 0.9;
+
+  /* Safari 1.x */
+  -khtml-opacity: 0.9;
+
+  /* Good browsers */
+  opacity: 0.9;
+}
+
+section {
+    padding-top:30px;
+    padding-bottom:120px;
+}
+
+/*=======================================
+    COLOR CODES
+==================================================*/
+.color-white {
+   background-color:#fff!important;
+}
+.color-dark {
+   background-color:#696969!important;
+}
+
+.color-light {
+   background-color:#B2BAC2!important;
+}
+.main-color-red {
+    color: #DF0000;
+}
+/*=======================================
+    HEADER STYLES
+==================================================*/
+.head-main {
+    font-size:120px !important;
+    font-weight:900!important;
+    color:#fff!important;
+    padding:200px 20px 20px 20px;
+}
+.head-sub-main {
+    font-size:40px !important;
+    font-weight:600!important;
+    color:#fff!important;
+    padding:5px 20px 30px 20px;
+}
+.head-last {
+  
+    padding:5px 20px 200px 20px;
+}
+
+/*=======================================
+    NAVIGATION STYLES
+==================================================*/
+
+
+nav {
+	position: absolute;
+	width: 100%;
+    background: #fff;
+    z-index:99;
+}
+.fixed {
+	position: fixed; 
+	top: 0; 
+	min-height: 50px; 
+	z-index: 99;
+}
+
+.navbar-inverse {
+background-color: #DF0000;
+border-color: #D30707;
+}
+
+/*=======================================
+    WORDS /ABOUT STYLES
+==================================================*/
+
+.about-div {
+	width: 100%;
+min-height: 100px;
+background-color: rgba(209, 209, 209, 0.24);
+box-shadow: none;
+border: 0;
+padding: 50px 20px 30px 20px;
+margin-bottom:20px;
+}
+#Parallax-one {
+    background-image: url("../img/2.jpg");
+padding: 0;
+background-repeat: no-repeat;
+background-position: center 0;
+background-size: cover;
+background-attachment: fixed;
+min-height:300px;
+}
+.for-parallax-one {
+    
+    color:#fff;
+    padding:40px 20px 40px 20px;
+    font-size:25px;
+}
+
+
+/*=======================================
+    PRICING STYLES
+==================================================*/
+
+
+.plan {
+    background: #eef1f3;
+    padding: 0 0 15px 0;
+    margin: 30px 0px;
+    list-style: none;
+    text-align: center;
+  
+    -webkit-transition: all 0.2s ease;
+       -moz-transition: all 0.2s ease;
+         -o-transition: all 0.2s ease;
+            transition: all 0.2s ease;
+}
+
+.plan:hover {
+          -webkit-transform: scale(1.1);
+       -moz-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+         -o-transform: scale(1.1);
+            transform: scale(1.1);
+}
+
+.plan li {
+    padding: 15px 0px;
+    color: #434749;
+    border-top: 1px dashed #000;
+}
+
+.plan li.plan-head {
+   padding: 15px 0px;
+background-color: #585858;
+color: #FFFFFF;
+line-height: 20px;
+font-size: 20px;
+font-weight: 600;
+border: none;
+   }
+
+.plan li.main-price {
+   padding: 25px 0px;
+background-color: #BEBEBE;
+color: #DF0000;
+border: none;
+font-weight: 900;
+font-size: 30px;
+}
+#Parallax-two {
+    background-image: url("../img/3.jpg");
+padding: 0;
+background-repeat: no-repeat;
+background-position: center 0;
+background-size: cover;
+background-attachment: fixed;
+min-height:300px;
+}
+.for-parallax-two {
+    
+    color:#fff;
+    padding:40px 20px 40px 20px;
+    font-size:25px;
+}
+
+/*=======================================
+    CONTACT STYLES
+==================================================*/
+
+#social-icon a {
+    color:#616161!important;
+    margin-right:10px;
+}
+.contact-cls {
+    font-size:20px;
+    line-height:40px;
+}
+/*=======================================
+    FOOTER STYLES
+==================================================*/
+
+
+#footer {
+    background-color:#000;
+    color:#fff;
+    padding:20px 50px 20px 50px;
+    text-align:right;
+}
+

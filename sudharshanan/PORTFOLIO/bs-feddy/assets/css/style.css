@@ -1,0 +1,219 @@
+﻿
+/*=============================================================
+    Authour URI: www.binarytheme.com
+    License: Commons Attribution 3.0
+
+    http://creativecommons.org/licenses/by/3.0/
+
+    100% To use For Personal And Commercial Use.
+    IN EXCHANGE JUST GIVE US CREDITS AND TELL YOUR FRIENDS ABOUT US
+   
+    ========================================================  */
+
+
+/*=======================================
+    GENERAL STYLES
+==================================================*/
+
+body {
+          font-family:'Open Sans', sans-serif;
+    font-size:14px;
+    background-image:url(../img/sativa.png);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:'Open Sans', sans-serif;
+}
+
+h1 {
+    line-height:50px;
+    font-weight:900;
+    font-size:30px;
+    text-transform:uppercase;
+    text-align:center;
+    color:#4A66FD;
+}
+    h1::after {
+        display: block;
+content: "";
+height: 2px;
+width: 150px;
+background: #4A66FD;
+margin: 5px auto 40px;
+    }
+
+
+.text-center {
+    text-align:center;
+}
+
+h2 {
+    line-height:50px;
+    color:#424242;
+}
+h3 {
+    line-height:30px;
+    padding-bottom:20px;
+}
+h4 {
+   padding-top: 25px;
+line-height: 40px;
+padding-bottom: 0px;
+font-size: 22px;
+font-weight: 900;
+
+}
+.adjst {
+     padding-top: 0px;
+}
+p {
+    font-weight:300;
+    line-height:30px;
+    padding-bottom:15px;
+}
+
+.top-pad {
+    padding-top:55px;
+}
+.f-s {
+    font-size:20px;
+}
+
+
+.g-pad-bottom {
+    padding-bottom:40px;
+}
+
+
+
+.form-control {
+        background-color: rgba(255, 255, 255, 0);
+}
+/* ===========================================================
+   NAVBAR CHANGES   
+   ============================================================*/
+.navbar {
+	font-size: 16px;
+}
+
+.navbar-inverse {
+background: #424242;
+min-height: 60px;
+padding-top: 5px;
+
+}
+
+.navbar-inverse .navbar-nav > .active > a {
+	background: #ffffff;
+}
+
+.navbar-inverse .navbar-brand {
+	color: #ffffff;
+	font-weight: bolder;
+	font-size: 25px;
+    font-weight:900;
+	letter-spacing: 2px;
+}
+.navbar-inverse :hover .navbar-brand:hover {
+	color: #ffffff;	
+}
+.navbar-inverse .navbar-nav > li > a {
+color: #FFFFFF;
+}
+.navbar-inverse {
+border-color: #424242;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+border-color: #424242;
+}
+/*=======================================
+    HOME SECTION STYLES
+==================================================*/
+
+#home-sec { 
+  
+    
+background: url(../img/1.jpg) no-repeat 50% 50%;
+background-attachment: fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+width: 100%;
+display: block;
+height: auto;
+ padding-top:190px;
+    padding-bottom:200px;
+    color:#000;
+}
+
+.head-main {
+    font-size:60px ;
+    font-weight:900;
+    color:#fff;
+    padding:5px;
+    text-transform:uppercase;
+    
+}
+
+.head-last {
+    font-size:18px ;
+    font-weight:900;
+    padding:35px 20px 60px 20px;
+}
+
+
+/*=======================================
+    Contact STYLES
+==================================================*/
+
+.cnt {
+width: 100%;
+min-height: 350px;
+border: 1px solid #e1e1e1;
+}
+/*=======================================
+    FOOTER STYLES
+==================================================*/
+
+
+#footer {
+    background-color:#424242;
+    color:#fff;
+    padding:20px 50px 20px 50px;
+    text-align:right;
+}
+
+
+/*=======================================
+    MEDIA QUERIES
+    
+    ==================================================*/
+
+@media all and (max-width:640px) and (min-width:405px) {
+    .head-main { 
+        font-size:50px ;
+    }
+}
+@media all and (max-width:405px) and (min-width:200px) {
+    .head-main { 
+        font-size:35px ;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

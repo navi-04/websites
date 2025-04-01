@@ -1,0 +1,38 @@
+.navbar {
+	padding: 0;
+	min-height: 80px;
+	@include custom-transition(all,.3);
+	background: $white;
+
+	.navbar-brand img{
+		width: 75px;
+		filter: drop-shadow(1px 2px 25px rgba($gray-400,.9));
+	}
+
+	.navbar-nav {
+		height: auto;
+
+		.nav-link {
+			font-size: 13px;
+			font-weight: bold;
+			margin: 0 10px;
+			@include custom-transition(all,.3);
+
+			&.active {
+				color: $primary;
+			}
+		}
+
+		.btn {
+			min-width: 120px;
+		}
+	}
+
+	&.affix {
+		box-shadow: 0 6px 15px rgba($gray-400,.3);
+	}
+
+	@include media-breakpoint-down(sm) {
+		padding: 0 20px;
+	}
+}
