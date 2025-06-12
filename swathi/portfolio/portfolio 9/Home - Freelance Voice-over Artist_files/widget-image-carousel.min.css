@@ -1,2 +1,0 @@
-/*! elementor - v3.28.0 - 01-04-2025 */
-.elementor-widget-image-carousel .swiper{position:static}.elementor-widget-image-carousel .swiper .swiper-slide figure{line-height:inherit}.elementor-widget-image-carousel .swiper-slide{text-align:center}.elementor-image-carousel-wrapper:not(.swiper-initialized) .swiper-slide{max-width:calc(100% / var(--e-image-carousel-slides-to-show, 3))}
